@@ -32,4 +32,17 @@ public class StringServiceTests
         // Act & Assert
         Assert.Throws<System.ArgumentNullException>(() => _svc.Reverse(null));
     }
+    
+    [Test]
+    public void ReverseWords_SingleWorld()
+    {
+        var actual = StringService.ReverseWords("Hello");
+        Assert.AreEqual(actual, "Hello");
+    }
+    [Test]
+    public void ReverseWords_TwoWords()
+    {
+        var actual = StringService.ReverseWords("Hello World");
+        Assert.AreEqual(actual, "World Hello");
+    }
 }

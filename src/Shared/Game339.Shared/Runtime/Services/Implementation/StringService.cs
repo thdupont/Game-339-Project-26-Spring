@@ -21,11 +21,14 @@ namespace Game339.Shared.Services.Implementation
             return output;
         }
 
-        public string ReverseWords(string input)
+        public static string ReverseWords(string input)
         {
-            var output = input.Split(' ');
-            Array.Reverse(output);
-            return string.Join(" ", output);
+            if (string.IsNullOrWhiteSpace(input))
+                return input;
+            string[] words = input.Split(' ',
+                StringSplitOptions.RemoveEmptyEntries);
+            Array.Reverse(words);
+            return string.Join(" ", words);
         }
     }
 }
