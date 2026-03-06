@@ -263,7 +263,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GameView
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -274,12 +274,12 @@ MonoBehaviour:
     height: 350.66666
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
-  m_ActualView: {fileID: 18}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
   - {fileID: 18}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -341,7 +341,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 0
+    y: 41.666668
     width: 1280
     height: 36
   m_SerializedDataModeController:
@@ -607,7 +607,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 374.66666
+    y: 428.33334
     width: 976.6667
     height: 215.66666
   m_SerializedDataModeController:
@@ -634,7 +634,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/System
+    - Assets/Scriptable Objects
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -644,21 +644,22 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/System
+  - Assets/Scriptable Objects
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\UNITY\projects\Fishing Rpg
+  m_LastProjectPath: D:\UNITY\projects\Game-339-Project-Fishing-RPG\Fishing Rpg
   m_LockTracker:
     m_IsLocked: 0
   m_LastLocalAssetsSearchArea: 1
   m_FolderTreeState:
     scrollPos: {x: 0, y: 28.666687}
     m_SelectedIDs:
-    - m_Data: 49128
+    - m_Data: 49274
     m_LastClickedID:
-      m_Data: 49128
+      m_Data: 49274
     m_ExpandedIDs:
     - m_Data: 0
     - m_Data: 48824
+    - m_Data: 1000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -720,7 +721,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: []
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: []
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -772,8 +773,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 978.6667
-    y: 24
+    x: 977.6667
+    y: 77.66667
     width: 301.3333
     height: 566.3333
   m_SerializedDataModeController:
@@ -824,7 +825,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 24
+    y: 77.66667
     width: 241
     height: 324.66666
   m_SerializedDataModeController:
@@ -1510,9 +1511,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 4.64352, y: 1.6367494, z: -0.018975899}
+    m_Target: {x: 7.7741356, y: 0.7035136, z: -0.010667376}
     speed: 2
-    m_Value: {x: 4.64352, y: 1.6367494, z: -0.018975899}
+    m_Value: {x: 7.7741356, y: 0.7035136, z: -0.010667376}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1562,9 +1563,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 11.8976345
+    m_Target: 11.06674
     speed: 2
-    m_Value: 11.8976345
+    m_Value: 11.06674
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1619,8 +1620,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Game\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 243
-    y: 24
+    x: 242
+    y: 77.66667
     width: 733.6667
     height: 324.66666
   m_SerializedDataModeController:
@@ -1666,10 +1667,10 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 1
+    m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -1681,14 +1682,14 @@ MonoBehaviour:
       width: 733.6667
       height: 303.66666
     m_Scale: {x: 3, y: 3}
-    m_Translation: {x: 366.83334, y: 151.83333}
+    m_Translation: {x: 366.83337, y: 151.83333}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -122.27778
+      x: -122.277794
       y: -50.61111
       width: 244.55556
       height: 101.22222

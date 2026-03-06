@@ -47,6 +47,7 @@
     <Analyzer Include="D:\UNITY\Unity editors\6000.3.9f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\FishObj.cs" />
     <Compile Include="Assets\Scripts\TopDownControl.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Reference Include="UnityEngine">
