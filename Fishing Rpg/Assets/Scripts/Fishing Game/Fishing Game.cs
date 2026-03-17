@@ -1,24 +1,32 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class FishingGame : MonoBehaviour
 {
-
+    //the hook object and script
     public GameObject fishHook;
+    public FishingHook currentHookData;
+    
+    //where the cast is spawned from
     public Transform FishingRod;
 
+    //speed of cast and return
     public float castForce = 10f;
     public float reelInSpeed = 10f;
+    public float lureRadius = 10f;
     
     bool hookOut = false;
     private GameObject activeHook;
     private InputAction clickAction;
+    private InputAction rightClickAction;
     private bool isReeling = false;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         clickAction = InputSystem.actions.FindAction("Click");
+        rightClickAction = InputSystem.actions.FindAction("RightClick");
     }
 
     // Update is called once per frame
@@ -33,6 +41,14 @@ public class FishingGame : MonoBehaviour
             else if (!isReeling)
             {
                 ReelInHook();
+            }
+        }
+
+        if (rightClickAction != null && rightClickAction.WasPressedThisFrame())
+        {
+            if (hookOut && !isReeling)
+            {
+                LureFish();
             }
         }
     }
@@ -100,6 +116,37 @@ public class FishingGame : MonoBehaviour
         hookOut = false;
         isReeling = false;
     }
+
+    public void LureFish()
+    {
+        //circle check for fish in range and set them to lured state
+        if (activeHook != null)
+        {
+            Collider2D[] colliders = Physics2D.OverlapCircleAll(activeHook.transform.position, lureRadius);
+            foreach (Collider2D col in colliders)
+            {
+                FishManager fish = col.GetComponent<FishManager>();
+                if (fish != null)
+                {
+                    fish.SetLured(activeHook);
+                }
+            }
+            TriggerHookParticles();
+        }
+    }
     
+    
+    
+    public void TriggerHookParticles()
+    {
+        if (activeHook != null)
+        {
+            FishingHook hookScript = activeHook.GetComponentInChildren<FishingHook>();
+            if (hookScript != null)
+            {
+                hookScript.TriggerParticles();
+            }
+        }
+    }
     
 }

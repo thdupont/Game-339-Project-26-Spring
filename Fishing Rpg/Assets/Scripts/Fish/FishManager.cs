@@ -3,6 +3,7 @@ using UnityEngine;
 public class FishManager : MonoBehaviour
 {
     public FishObj fishData;
+    private GameObject hookObject;
 
     public enum FishState
     {
@@ -30,6 +31,9 @@ public class FishManager : MonoBehaviour
         {
             case FishState.Idle:
                 UpdateIdleState();
+                break;
+            case FishState.Lured:
+                UpdateLuredState();
                 break;
         }
     }
@@ -74,8 +78,49 @@ public class FishManager : MonoBehaviour
         if (fishData != null && rb != null)
         {
             // Simple random movement for testing idle state and bounds
-            rb.linearVelocity = transform.right * fishData.speed;
+            rb.linearVelocity = transform.up * fishData.speed;
         }
+    }
+
+    public void SetLured(GameObject hook)
+    {
+        hookObject = hook;
+        currentState = FishState.Lured;
+    }
+
+    private void UpdateLuredState()
+    {
+        if (hookObject != null && rb != null)
+        {
+            Vector2 direction = (hookObject.transform.position - transform.position).normalized;
+            rb.linearVelocity = direction * fishData.speed;
+            
+            // Rotate to face the hook
+            float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg - 90f;
+            transform.rotation = Quaternion.Euler(0, 0, angle);
+
+            // If close enough to hook, maybe transition to Hooked? 
+            // For now just keep following.
+        }
+        else
+        {
+            currentState = FishState.Idle;
+        }
+    }
+
+    private void EnterHookedState()
+    {
+        
+    }
+
+    private void ExitHookedState()
+    {
+        
+    }
+
+    private void UpdateHookedState()
+    {
+        
     }
     
 }
