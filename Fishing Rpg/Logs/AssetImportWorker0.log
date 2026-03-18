@@ -3318,3 +3318,167 @@ Received Import Request.
 Start importing Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Electric Eel/Idle.png using Guid(53c29d4d2904d45eaa3e1d2e192d235b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9cca93d6f61435daf9089357589d8a0e') in 0.016604959 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
 
+========================================================================
+Received Import Request.
+  Time since last request: 843.607967 seconds.
+  path: Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Octopus/Death.png
+  artifactKey: Guid(dbc1d43ce9c914e32bae88d7acfa8de9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Octopus/Death.png using Guid(dbc1d43ce9c914e32bae88d7acfa8de9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '27f697180c0315e98fb4247ebd556860') in 0.15551325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Electric Eel/Hurt.png
+  artifactKey: Guid(46fa3b527bb294c0fa60d385a8a47ce7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Electric Eel/Hurt.png using Guid(46fa3b527bb294c0fa60d385a8a47ce7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f493e1a67ef0df33bff585addbecf032') in 0.014320459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Turtle
+  artifactKey: Guid(f3e784bd5a78b499cadf630f9afaf61d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Turtle using Guid(f3e784bd5a78b499cadf630f9afaf61d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '72729fbf6b1b4865cc4ffdd9edc22696') in 0.009090333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Jellyfish/Walk.png
+  artifactKey: Guid(adf42ae2992c84e89bae5299d847e6ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Jellyfish/Walk.png using Guid(adf42ae2992c84e89bae5299d847e6ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '331dfcd9109c9265a7dd3533e5726243') in 0.0130325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Octopus/Attack.png
+  artifactKey: Guid(ada8a5169f3f24795a7d5a495e013292) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Octopus/Attack.png using Guid(ada8a5169f3f24795a7d5a495e013292) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f97daf019ffb46ddca6bcef1b3c777b5') in 0.013415375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Octopus/Idle.png
+  artifactKey: Guid(195b64b4ddc01445281e54d838f53602) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Octopus/Idle.png using Guid(195b64b4ddc01445281e54d838f53602) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '46cd2c6acff0a8a0864be3978fb7daa0') in 0.016534708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Jellyfish/Death.png
+  artifactKey: Guid(b6c5d67f7956b435db1f8e9361a2214c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Jellyfish/Death.png using Guid(b6c5d67f7956b435db1f8e9361a2214c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '93b21412558c0e4efb3d0927546e9f51') in 0.017832292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Scripts/Shop/Shop Manager.cs
+  artifactKey: Guid(f6423454552bb4151bd3426a977d5b73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/Shop/Shop Manager.cs using Guid(f6423454552bb4151bd3426a977d5b73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '47e51b2bea61ff6c434ea126c061ba1e') in 0.014866208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Scripts/Shop/ShopSceneChange.cs
+  artifactKey: Guid(62e4194c211d949f290651b55d66f7f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/Shop/ShopSceneChange.cs using Guid(62e4194c211d949f290651b55d66f7f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9c9c80de554acf1812598a1e40bbec22') in 0.009513625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Jellyfish/Idle.png
+  artifactKey: Guid(f79a1bb471b094a45bd9f91bda8bedec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Jellyfish/Idle.png using Guid(f79a1bb471b094a45bd9f91bda8bedec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '04b44c3c5bf3bb254e0e5bd8b015b7ec') in 0.021435458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Shark/Walk.png
+  artifactKey: Guid(1e807b81484a8436e85bd50d4919ce92) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Shark/Walk.png using Guid(1e807b81484a8436e85bd50d4919ce92) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8093a6878071b40503f8ae50620f19d6') in 0.013929042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Electric Eel
+  artifactKey: Guid(6b4d69e0ce29f468b8e051b8e2cf4c3b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Electric Eel using Guid(6b4d69e0ce29f468b8e051b8e2cf4c3b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '232f85e9c3bd354a2f156ecedc335315') in 0.011361625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Angler/Death.png
+  artifactKey: Guid(a1223d768e9bc4a64b1388b898a6b9a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Angler/Death.png using Guid(a1223d768e9bc4a64b1388b898a6b9a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '69a11f30e79de528e1bbbe8bc9f0204d') in 0.015953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Shark/Attack.png
+  artifactKey: Guid(eb884538b86504558b5a3c9db6ed6710) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Shark/Attack.png using Guid(eb884538b86504558b5a3c9db6ed6710) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4f84196f180a02aadf9de43b55c350ef') in 0.012401542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Angler/Idle.png
+  artifactKey: Guid(82464884b83cc44ec94df47105fb748d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Angler/Idle.png using Guid(82464884b83cc44ec94df47105fb748d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5dc2e0d9ab5d1e666605fa79ca610dfa') in 0.01141675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Electric Eel/Death.png
+  artifactKey: Guid(be5a239119ac645dbb50d2013c8fdf6b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Electric Eel/Death.png using Guid(be5a239119ac645dbb50d2013c8fdf6b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '475743cc4e9bacc5532ebf36d34a7f52') in 0.011934083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Shark/Death.png
+  artifactKey: Guid(a430eed0637304928ae38451f4885bc7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Shark/Death.png using Guid(a430eed0637304928ae38451f4885bc7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e41acb7ba421bef024777fa114143b9e') in 0.010383167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Jellyfish/Hurt.png
+  artifactKey: Guid(56433df31646f4eb98787fe00356226a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Jellyfish/Hurt.png using Guid(56433df31646f4eb98787fe00356226a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4cbb131829711bec6e02d1d347c0c662') in 0.009534542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Angler/Attack.png
+  artifactKey: Guid(0cf6c23296448464a97f6a11b162f5b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Angler/Attack.png using Guid(0cf6c23296448464a97f6a11b162f5b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b626f88853ab2f49203a4cd523763770') in 0.01036675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Turtle/Death.png
+  artifactKey: Guid(fa6c23f9df7564fd59f3d31e3a6f4b71) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Turtle/Death.png using Guid(fa6c23f9df7564fd59f3d31e3a6f4b71) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b5a4fbe4e3b07744f83ddee1693c3d96') in 0.010938791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
