@@ -1531,3 +1531,1790 @@ Received Import Request.
 Start importing Assets/Art/Tilemap Art/Tilemap Ground Palette.png using Guid(e51f4415b843bea4f804e98d407e9a00) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9d467adf3ef66cc5da4c78dbd91d3716') in 0.125595791 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 272
 
+========================================================================
+Received Import Request.
+  Time since last request: 378.828441 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_136.png
+  artifactKey: Guid(56511f0a3660d4b99a178fa20864cd9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_136.png using Guid(56511f0a3660d4b99a178fa20864cd9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8b685c29be30db669eed7044a49ed864') in 0.026588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Grass/4.png
+  artifactKey: Guid(df4d43a2c647f4d55a0f04310a851385) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Grass/4.png using Guid(df4d43a2c647f4d55a0f04310a851385) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '66d282c77ae4b7ced8f12465e4869420') in 0.012662167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/1 Fisherman
+  artifactKey: Guid(8ebc5e215fde3462485e38a6181a1d97) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/1 Fisherman using Guid(8ebc5e215fde3462485e38a6181a1d97) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a5938c806663ec5ee75db84c4eca2e83') in 0.007217625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Houses/3.png
+  artifactKey: Guid(84ebfbfb432594104aa3ab309e5ae974) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Houses/3.png using Guid(84ebfbfb432594104aa3ab309e5ae974) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7b66e7a5ed811a4d261ae285c6b84ee2') in 0.01397175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_43.png
+  artifactKey: Guid(64b1ce38afbaf4e6ba0afb603d66729e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_43.png using Guid(64b1ce38afbaf4e6ba0afb603d66729e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7e7c71dfd297d26c5f3643385b8f1e68') in 0.009685625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Trees
+  artifactKey: Guid(305f2464e3b124adbbf6a1d25d296ada) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Trees using Guid(305f2464e3b124adbbf6a1d25d296ada) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'eac5c022132d27b5d1384b3b80c43fe2') in 0.01132825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/3 Objects/Fishing_hut.png
+  artifactKey: Guid(f19343b108c8f4d8e984bc2f4bd47be2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/3 Objects/Fishing_hut.png using Guid(f19343b108c8f4d8e984bc2f4bd47be2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'abb1d058695618817d4f270233693fee') in 0.014054 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_54.png
+  artifactKey: Guid(bf4a31b254beb4df58abc092cfec80ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_54.png using Guid(bf4a31b254beb4df58abc092cfec80ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b49ba060aaca93b4f84153138253d8be') in 0.011839167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/1 Fisherman/Fisherman_idle.png
+  artifactKey: Guid(45eaf92f92cc046e6af7d90d663bd86f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/1 Fisherman/Fisherman_idle.png using Guid(45eaf92f92cc046e6af7d90d663bd86f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0d2b6c2f10dce8b42d5029f4f650d7e6') in 0.011307833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Grass/8.png
+  artifactKey: Guid(67899f229fd464596a5a4b7051fb378c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Grass/8.png using Guid(67899f229fd464596a5a4b7051fb378c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '188d8a67a5e5db6444909fdd89b6952a') in 0.008928584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_18.png
+  artifactKey: Guid(e527bcbc3b7c74204ab017674a4fb4c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_18.png using Guid(e527bcbc3b7c74204ab017674a4fb4c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '79fdc28ffeb888845ddae0eb95e719fe') in 0.009789459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Houses/5.png
+  artifactKey: Guid(671cd98f2e7a447379a2801ce75c2158) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Houses/5.png using Guid(671cd98f2e7a447379a2801ce75c2158) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5230999a05142e47b887ff8989f2fca0') in 0.009336334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Grass/9.png
+  artifactKey: Guid(c9a598277d6c54b1089cd5bfaa48c7e4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Grass/9.png using Guid(c9a598277d6c54b1089cd5bfaa48c7e4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4200de818e7db3d65fb71b4b59778d8f') in 0.00794625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_05.png
+  artifactKey: Guid(3aef8ff4049444c5e8b4d67010af9b30) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_05.png using Guid(3aef8ff4049444c5e8b4d67010af9b30) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c021785563ee6f92374ce76dcbd45e9c') in 0.007937583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/1 Fisherman/Fisherman_row.png
+  artifactKey: Guid(315a25b95eca64d0a96d0774eaf6f291) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/1 Fisherman/Fisherman_row.png using Guid(315a25b95eca64d0a96d0774eaf6f291) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '54d8ba6393e3b68db187c536d0028817') in 0.007950459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_94.png
+  artifactKey: Guid(ba6ee16db7cba4eee934700bfdbae07e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_94.png using Guid(ba6ee16db7cba4eee934700bfdbae07e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9014992da20a3236376f95a37122bd33') in 0.006832083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_89.png
+  artifactKey: Guid(0200a08ba14094d4a80dc7bda16d0e7c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_89.png using Guid(0200a08ba14094d4a80dc7bda16d0e7c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a645fb06dcdca927107ccf3e64cd2903') in 0.0102485 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/3 Objects/Catch/5.png
+  artifactKey: Guid(8f2399e44a5304a10bbf9f9fa4e529cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/3 Objects/Catch/5.png using Guid(8f2399e44a5304a10bbf9f9fa4e529cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '35983bd8212289e5920d632a3e2dec15') in 0.008516334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/3 Objects/Boat 1.png
+  artifactKey: Guid(804f6f15b703c4d6a85a488c32fa9700) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/3 Objects/Boat 1.png using Guid(804f6f15b703c4d6a85a488c32fa9700) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3df16585931655b1c88fed0980d6a319') in 0.006685583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_105.png
+  artifactKey: Guid(66e241755973a4e22bd7fa40af3f88cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_105.png using Guid(66e241755973a4e22bd7fa40af3f88cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd9d797c04de7931ad930956c5ebbe67a') in 0.007560709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/3 Objects/Catch/2.png
+  artifactKey: Guid(0e42a44159a5348b8b9aff1275c3a1b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/3 Objects/Catch/2.png using Guid(0e42a44159a5348b8b9aff1275c3a1b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7d2fd02f7ea5276f66476f28b0cf39ba') in 0.0080895 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_101.png
+  artifactKey: Guid(a8d8cf704ff704942a44a6e7eff5001f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_101.png using Guid(a8d8cf704ff704942a44a6e7eff5001f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a644298c5a3352dff26537ed2ee0c842') in 0.006900584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/3 Objects/Water.png
+  artifactKey: Guid(a22bf76f4861e4db3bb6ceaa883b5169) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/3 Objects/Water.png using Guid(a22bf76f4861e4db3bb6ceaa883b5169) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8794530b486ebc90d2068ef3e4f9e6d6') in 0.01168825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_10.png
+  artifactKey: Guid(c141c5250effc405dbbe96b08a743e55) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_10.png using Guid(c141c5250effc405dbbe96b08a743e55) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '700ccb0dfb7cabae0d3007559915d369') in 0.006999417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_37.png
+  artifactKey: Guid(87f2618ad136b441c98bfcbb54c46aa7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_37.png using Guid(87f2618ad136b441c98bfcbb54c46aa7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '29ccfa286c2d16ac1303b49a45bb737f') in 0.006350291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Grass/1.png
+  artifactKey: Guid(63aa86789fa9a4e74bd881a0aaeb6e58) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Grass/1.png using Guid(63aa86789fa9a4e74bd881a0aaeb6e58) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0672bcd2139ecae7bea6668b83288508') in 0.007452667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_87.png
+  artifactKey: Guid(619b43ab6e0c1450a882fac9c1e5a16a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_87.png using Guid(619b43ab6e0c1450a882fac9c1e5a16a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '201287b14c010ee985cbcb42c50b89fe') in 0.010263292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Font.txt
+  artifactKey: Guid(2d2abad40e3534525af8dcb97df824e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Font.txt using Guid(2d2abad40e3534525af8dcb97df824e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6b1404bac1cd4665dd27397fb649b80f') in 0.004958208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Bushes/6.png
+  artifactKey: Guid(0464deb1eb83d4ccb8270f1644581509) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Bushes/6.png using Guid(0464deb1eb83d4ccb8270f1644581509) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c0104b65e294f05b0099e8644033dc5b') in 0.013205792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_98.png
+  artifactKey: Guid(97a8b48b368324e4395032553140936b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_98.png using Guid(97a8b48b368324e4395032553140936b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '62fc70296f87b10b280c2dd4027c304f') in 0.010953125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/UI/circle2.png
+  artifactKey: Guid(023d277d6841a4292a5efb49c6bfca63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/UI/circle2.png using Guid(023d277d6841a4292a5efb49c6bfca63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7b18f0adbfac8600ff76b6aa919ccc80') in 0.010385083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_137.png
+  artifactKey: Guid(1f9aa9b5efebc47cc8c9c47ac7fb18ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_137.png using Guid(1f9aa9b5efebc47cc8c9c47ac7fb18ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8b72e9f002de239eec9078acfb479471') in 0.014849083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_02.png
+  artifactKey: Guid(3f6b7bf96431842ebb1c6e45fcee2842) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_02.png using Guid(3f6b7bf96431842ebb1c6e45fcee2842) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '31d1989467ef3c41cd3369f408e95282') in 0.012955792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Shadows/e7.png
+  artifactKey: Guid(0252f76e7cc914eb7b0e93ee92040692) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Shadows/e7.png using Guid(0252f76e7cc914eb7b0e93ee92040692) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9694bdf91017671fbcbfa532ebcf91b5') in 0.01191625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_07.png
+  artifactKey: Guid(1cfbdcf4558c146dd8b540481701487f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_07.png using Guid(1cfbdcf4558c146dd8b540481701487f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5c43065f391e5f6df74b0e98f0806a91') in 0.011468167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/3 Objects/Catch/Barrel.png
+  artifactKey: Guid(d6363884c80ac4f11908f42344ddfb08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/3 Objects/Catch/Barrel.png using Guid(d6363884c80ac4f11908f42344ddfb08) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5bbbcae739b4e3f26b6a891ce5a71516') in 0.010289125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/3 Objects/Catch
+  artifactKey: Guid(a6090869969a8400e890c4d2ae1b40da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/3 Objects/Catch using Guid(a6090869969a8400e890c4d2ae1b40da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1a1fb1333603ea205880b29302f17dda') in 0.007484333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Trees/9.png
+  artifactKey: Guid(8e19b6cee04ec4faf8d9c4bf11cb7aa1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Trees/9.png using Guid(8e19b6cee04ec4faf8d9c4bf11cb7aa1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0c5020de3e4547efab866ee78d70e9a7') in 0.009730667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_66.png
+  artifactKey: Guid(2842fc635dbb64c4fb25ff84998e2065) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_66.png using Guid(2842fc635dbb64c4fb25ff84998e2065) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fbe7e743a45ce57af65d0c41c78b67bf') in 0.010179583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/4 Icons/Icons_20.png
+  artifactKey: Guid(6e12c57715c234c3985e31c80c8f6d07) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/4 Icons/Icons_20.png using Guid(6e12c57715c234c3985e31c80c8f6d07) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '96d80143f139ede006c801f17ec34bc0') in 0.010176334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Crystals/5.png
+  artifactKey: Guid(85313d73283424769b095a2850b1d195) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Crystals/5.png using Guid(85313d73283424769b095a2850b1d195) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '68090850338538474a8e5503b8afcc04') in 0.012338916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_134.png
+  artifactKey: Guid(fcaadb8e5864c432f97aad19b3f715e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_134.png using Guid(fcaadb8e5864c432f97aad19b3f715e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cf368d4d4345566771a4e0d0a1c52e08') in 0.008694084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_99.png
+  artifactKey: Guid(ded84d5ab9f3c405a916f0e5db03c01f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_99.png using Guid(ded84d5ab9f3c405a916f0e5db03c01f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '541c53b41ed084d95174997974c61832') in 0.007104292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Bushes/5.png
+  artifactKey: Guid(2641eb57f749b40788c63159240d90fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Bushes/5.png using Guid(2641eb57f749b40788c63159240d90fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0783cfbbc71ee5757cb2b97aada0b39b') in 0.011228292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Bushes/3.png
+  artifactKey: Guid(05ace395e79f34d1786749cb69ee504a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Bushes/3.png using Guid(05ace395e79f34d1786749cb69ee504a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c60341cd17d4becc569d7db253ec58d1') in 0.011553667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_30.png
+  artifactKey: Guid(1daa2de66d0684fa18e1fbca9df084fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_30.png using Guid(1daa2de66d0684fa18e1fbca9df084fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'df590fd5e0b88c5095e285a8e3a7125a') in 0.009901708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_80.png
+  artifactKey: Guid(fbd7009d88f644056ba658bdcfa16fcf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_80.png using Guid(fbd7009d88f644056ba658bdcfa16fcf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd595534fc17ff7720ccbdbecd5408ac3') in 0.009457375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_125.png
+  artifactKey: Guid(036ea2bba93e1499fa74354cc1107a4b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_125.png using Guid(036ea2bba93e1499fa74354cc1107a4b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '895a385d7c6a32649c40606a2eb76e88') in 0.010968958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_32.png
+  artifactKey: Guid(572bec9ffa64f41c1bf0de2946076ede) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_32.png using Guid(572bec9ffa64f41c1bf0de2946076ede) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1612103bd00a54c397e63e9ce44734ab') in 0.007239333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_24.png
+  artifactKey: Guid(e0e99f2afe3fe478d89927486dad803e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_24.png using Guid(e0e99f2afe3fe478d89927486dad803e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c9adb96268a74511c78256bdda9823ed') in 0.010498333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/2 Character animation/SteamMan_fish.png
+  artifactKey: Guid(657bed61d31fb474ab8e7943a8792761) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/2 Character animation/SteamMan_fish.png using Guid(657bed61d31fb474ab8e7943a8792761) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '632d84ed19116aef12456cd8aea38777') in 0.013546667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Trees/5.png
+  artifactKey: Guid(a93cb059ef7a54f058199701713fbae1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Trees/5.png using Guid(a93cb059ef7a54f058199701713fbae1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '03e115f90473e730f2cb80c0636cf186') in 0.01260925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Shadows/e2.png
+  artifactKey: Guid(e114b7830847a4c01bef6cebd3a20b59) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Shadows/e2.png using Guid(e114b7830847a4c01bef6cebd3a20b59) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1cf6af1f1d6bdf444a930d62996aef9d') in 0.011107125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Rocks/1.png
+  artifactKey: Guid(572b909dfaeb64efc8bf743c8c7e324b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Rocks/1.png using Guid(572b909dfaeb64efc8bf743c8c7e324b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1275b963606591832fef9249fbe76b9f') in 0.009758458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Ruins/3.png
+  artifactKey: Guid(7b4fd64fddce3489f9896d0098f05082) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Ruins/3.png using Guid(7b4fd64fddce3489f9896d0098f05082) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9fee2e51c9f575b1eaa8bfc75b87b6f4') in 0.009944875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_129.png
+  artifactKey: Guid(3c8ae30b1922f4126914b6a2b5ccd315) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_129.png using Guid(3c8ae30b1922f4126914b6a2b5ccd315) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7b762d65a2ed24e4d77a156033a73059') in 0.008983625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/3 Objects/Pier_Tiles.png
+  artifactKey: Guid(db35c14ec26ea4fe181d89e21b93fa43) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/3 Objects/Pier_Tiles.png using Guid(db35c14ec26ea4fe181d89e21b93fa43) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4853363df0bda57278ba7bff4bb1c255') in 0.010789042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Shadows/s2.png
+  artifactKey: Guid(212213dadc72741b1948f67e8a81e468) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Shadows/s2.png using Guid(212213dadc72741b1948f67e8a81e468) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '190fac12e7ccc3aff84a394ff7d7fc4f') in 0.008186542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/4 Icons/Icons_04.png
+  artifactKey: Guid(17a2a6babc0ae4efc99cd094880aca2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/4 Icons/Icons_04.png using Guid(17a2a6babc0ae4efc99cd094880aca2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7c46a8e85663382f9d18ee813635eff7') in 0.012109542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Bushes/1.png
+  artifactKey: Guid(1abd8feab8992446682f32f8ed767809) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Bushes/1.png using Guid(1abd8feab8992446682f32f8ed767809) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0bf45c70adad5eeac3642788a10274fc') in 0.011019792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/4 Icons/Icons_14.png
+  artifactKey: Guid(7ebeb1ed78f58444882146f2dc7b08ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/4 Icons/Icons_14.png using Guid(7ebeb1ed78f58444882146f2dc7b08ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cc14fc1a35f28b2850d4d10311c8ed6f') in 0.01174475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Trees/8.png
+  artifactKey: Guid(6703e97a696734e8592b84bced9bcecd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Trees/8.png using Guid(6703e97a696734e8592b84bced9bcecd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1e872df2c4bc29ac2f25db7a91de3481') in 0.010475708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_74.png
+  artifactKey: Guid(68a9e5c0d248a429f8a00c2b34e84054) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_74.png using Guid(68a9e5c0d248a429f8a00c2b34e84054) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'babf5d4b2f43e300e2d939a6698582a1') in 0.010493125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_63.png
+  artifactKey: Guid(485f40bf05c15429dbba61f1d12df783) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_63.png using Guid(485f40bf05c15429dbba61f1d12df783) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '170a64afe1c5c4dab1f80e1e0ff9418f') in 0.011736917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_11.png
+  artifactKey: Guid(1eaed236c7c7b4a3d9a36b040e3a53af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_11.png using Guid(1eaed236c7c7b4a3d9a36b040e3a53af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd28c373be71bd6c30dc6bb19aa365b69') in 0.009813542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Fog/Fog_05.png
+  artifactKey: Guid(6c25c510bd0164af0929a8db5d4b61bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Fog/Fog_05.png using Guid(6c25c510bd0164af0929a8db5d4b61bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b450b252ad1737fb110700360f130e6b') in 0.007429292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Rocks/2.png
+  artifactKey: Guid(55052c5a2c213429586f29e99c5e8020) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Rocks/2.png using Guid(55052c5a2c213429586f29e99c5e8020) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f40ee94b86eda2c99a046dc387b710ee') in 0.006988084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_108.png
+  artifactKey: Guid(12a2b6787a32a4d72a67595374827cde) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_108.png using Guid(12a2b6787a32a4d72a67595374827cde) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9393da91beb82850a90a821ff533bc46') in 0.006603292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Crystals/6.png
+  artifactKey: Guid(1c12072cc509a40f4a0cb620d4181992) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Crystals/6.png using Guid(1c12072cc509a40f4a0cb620d4181992) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3a09c32cef0db8d29c8109f9dc0daafa') in 0.012332167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Other
+  artifactKey: Guid(f49af91f7f75c48fc97ddde8a306d5ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Other using Guid(f49af91f7f75c48fc97ddde8a306d5ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dde6ee6134164af30557bb51dca4cffd') in 0.004743708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_38.png
+  artifactKey: Guid(bf0aaf65b7e9644fba1a2f4c29a97581) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_38.png using Guid(bf0aaf65b7e9644fba1a2f4c29a97581) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '65017c86e0a38fac8dc36d860244e10e') in 0.009744917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Ruins/4.png
+  artifactKey: Guid(18827ecff6a54461289181780ebf45e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Ruins/4.png using Guid(18827ecff6a54461289181780ebf45e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '084f7bce262ebaada94141b75ba06d84') in 0.010163625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_130.png
+  artifactKey: Guid(c6e760f1734e7457a975a3fab40876b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_130.png using Guid(c6e760f1734e7457a975a3fab40876b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dc07d545c4a62ad2dc9ebc2c0da7464d') in 0.010426042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_27.png
+  artifactKey: Guid(8bc8392e778c04ba4aefe78b2f336de3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_27.png using Guid(8bc8392e778c04ba4aefe78b2f336de3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f185612c6908ec528c4bb09ddb606189') in 0.009856417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/2 Character animation/SteamMan_row.png
+  artifactKey: Guid(644d38198b35440dd800c6642c763218) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/2 Character animation/SteamMan_row.png using Guid(644d38198b35440dd800c6642c763218) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bd1f26c05c7e2a6346615c6dd0598499') in 0.012818958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Trees/6.png
+  artifactKey: Guid(4107c501bfc2b465695ad1939c45be81) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Trees/6.png using Guid(4107c501bfc2b465695ad1939c45be81) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3b2b2d8a891d8ed094b3dd20d0918323') in 0.012005667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Fog/Fog_12.png
+  artifactKey: Guid(6b2220f80b29646938d48a469f7b96a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Fog/Fog_12.png using Guid(6b2220f80b29646938d48a469f7b96a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '09940478278a1634d2cecb0badefc1ee') in 0.010243708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Shadows/s3.png
+  artifactKey: Guid(244a8629666864ed4970cab0e0b34be6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Shadows/s3.png using Guid(244a8629666864ed4970cab0e0b34be6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '969d3b0e45ffc95520f13109005fb886') in 0.00941125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_40.png
+  artifactKey: Guid(5ce77817b7a0c4e2ca5628c54b4a898b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_40.png using Guid(5ce77817b7a0c4e2ca5628c54b4a898b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0374cabdb7624873a9d62b5b2c7885d7') in 0.008218125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_133.png
+  artifactKey: Guid(eb336de0c9610499493e187a62f45da5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_133.png using Guid(eb336de0c9610499493e187a62f45da5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '495fe95034e5c748677d79b910b7d523') in 0.009816167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Grass/5.png
+  artifactKey: Guid(7cb47dfcb604444bc92ae8367d361d99) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Grass/5.png using Guid(7cb47dfcb604444bc92ae8367d361d99) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '58818ca322ac770f271829ef3148a238') in 0.010489333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/UI
+  artifactKey: Guid(1d3c3e9950d194195b25f9a9736caeb8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/UI using Guid(1d3c3e9950d194195b25f9a9736caeb8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '78bfb2a381cb94d85d8f386a7743942b') in 0.007194958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Grass/6.png
+  artifactKey: Guid(48dec72de1db3422ca5e8c69b8473084) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Grass/6.png using Guid(48dec72de1db3422ca5e8c69b8473084) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '23c6f79f4579d333d69e741d208c61dd') in 0.009936333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Fog
+  artifactKey: Guid(dbad31117ac17491497e65c9df35c8ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Fog using Guid(dbad31117ac17491497e65c9df35c8ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'debf975d431c43afdc4a9ed0e78135ee') in 0.006171709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_122.png
+  artifactKey: Guid(46430ab9598244c6690ae30357101565) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_122.png using Guid(46430ab9598244c6690ae30357101565) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a3b8f7c9b4e3daeb78fd78542cc5f584') in 0.006413334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/3 Objects/Catch/4.png
+  artifactKey: Guid(926be6465dc3f41848e0995cd0ad83c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/3 Objects/Catch/4.png using Guid(926be6465dc3f41848e0995cd0ad83c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'df9cd767b74b3bd56b2edd92767bb569') in 0.0092305 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/4 Icons/Icons_11.png
+  artifactKey: Guid(cf0d34110e600451b8a08f49debaf6ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/4 Icons/Icons_11.png using Guid(cf0d34110e600451b8a08f49debaf6ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'db7146cf9be2ee9f1fab9b125be303da') in 0.008953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_124.png
+  artifactKey: Guid(1559fdf41b1944588954e2c6c8ea0e7f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_124.png using Guid(1559fdf41b1944588954e2c6c8ea0e7f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a7ba1648079461d1eedd549d1dd351f5') in 0.012517792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Crystals/1.png
+  artifactKey: Guid(dd2527f7ece504996a0846de25db5afe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Crystals/1.png using Guid(dd2527f7ece504996a0846de25db5afe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '79da6d7aa184f982a4064ca48358bf2c') in 0.011140708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Other/Ship2.png
+  artifactKey: Guid(7479cba8ae8e14ec3b20b6f8c0b3228c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Other/Ship2.png using Guid(7479cba8ae8e14ec3b20b6f8c0b3228c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0bceebcb0153e368a232588ac02a74f3') in 0.009247542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_31.png
+  artifactKey: Guid(3bd5b2b44109a4420a7ee3a7a400fc89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_31.png using Guid(3bd5b2b44109a4420a7ee3a7a400fc89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '21910ac5593751b12bdb4ae1e2296b64') in 0.0118825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Rocks/3.png
+  artifactKey: Guid(aec60f057e7d44cdda122e7304d922af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Rocks/3.png using Guid(aec60f057e7d44cdda122e7304d922af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'afee2d1758e538812bc2f8c9ad17b7ce') in 0.00963475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Grass/10.png
+  artifactKey: Guid(136924c83b3484cfb8a10651db91e68f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Grass/10.png using Guid(136924c83b3484cfb8a10651db91e68f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7642ce1a14acbb3d6f5dcda0b68bc83a') in 0.012511125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_53.png
+  artifactKey: Guid(6845602cd76954be2be3a94a299bc8d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_53.png using Guid(6845602cd76954be2be3a94a299bc8d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e3cd872ba748c114ae304fdb3a617982') in 0.0099295 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_23.png
+  artifactKey: Guid(e72eff90e45524c94befce66fc375beb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_23.png using Guid(e72eff90e45524c94befce66fc375beb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f8faf6bebff74ea0f448ac60cc2bf8bd') in 0.009794292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_47.png
+  artifactKey: Guid(8b6225b381be64ae991acde3a224004d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_47.png using Guid(8b6225b381be64ae991acde3a224004d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd2c885d53fd8d32666ab2519e68ed8b4') in 0.009509875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Fog/Fog_10.png
+  artifactKey: Guid(5cc366ca868914a7d8a796b92c657016) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Fog/Fog_10.png using Guid(5cc366ca868914a7d8a796b92c657016) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '53bdd5452c0ea81dcece686dc3d393b8') in 0.011860792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_116.png
+  artifactKey: Guid(b740784b7699146fca39f5f95f01e902) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_116.png using Guid(b740784b7699146fca39f5f95f01e902) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '58084320d910c664f566607638889d72') in 0.006829459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_82.png
+  artifactKey: Guid(446b163c606f140b5aee4b032695497a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_82.png using Guid(446b163c606f140b5aee4b032695497a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9cd40a43f1de3c954b4f3752aec9c0ae') in 0.01003725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_69.png
+  artifactKey: Guid(102333fb57c744232a1cc91f79463cd7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_69.png using Guid(102333fb57c744232a1cc91f79463cd7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '45f8c4d8c37ad265d070d9f9f402b5c2') in 0.0082715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Fog/Fog_tiles.png
+  artifactKey: Guid(6afa791a82ed940208e489b585ae3ff0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Fog/Fog_tiles.png using Guid(6afa791a82ed940208e489b585ae3ff0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bf8756836ee95c65ee69649774adc1af') in 0.020073542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/3 Objects/Grass2.png
+  artifactKey: Guid(7be1a78f56edc447bb9b6338f22437ef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/3 Objects/Grass2.png using Guid(7be1a78f56edc447bb9b6338f22437ef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6d39823f24877df92ccb666d70a03615') in 0.00631075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_140.png
+  artifactKey: Guid(2347ac4af7f0f4994b8afc01d2662cad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_140.png using Guid(2347ac4af7f0f4994b8afc01d2662cad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4485f42cbcbdbc8fef1438475dcd0a01') in 0.006337917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/3 Objects/Catch/Chest.png
+  artifactKey: Guid(c8f9d35e7fce14079972f09a2be13778) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/3 Objects/Catch/Chest.png using Guid(c8f9d35e7fce14079972f09a2be13778) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c26ce0eabf77cd350d20fed32a9d1372') in 0.007377083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_29.png
+  artifactKey: Guid(6c86b08a928d348b6965664fc867d8f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_29.png using Guid(6c86b08a928d348b6965664fc867d8f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8e289f7726b0b6ecdf3bdfc0dd71f69e') in 0.00777125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_126.png
+  artifactKey: Guid(19375d064b67e464a9d8479bf20b88c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_126.png using Guid(19375d064b67e464a9d8479bf20b88c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2c05fe83d8be0f4140ef4f4c5f20fe57') in 0.007039292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Fog/Fog_11.png
+  artifactKey: Guid(ee275a7455f364a4d928a959487c98aa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Fog/Fog_11.png using Guid(ee275a7455f364a4d928a959487c98aa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8c79ed10d997ded8605b2a10b7510653') in 0.011924375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_120.png
+  artifactKey: Guid(d4c993d46d2614c8891bb7acc777a17d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_120.png using Guid(d4c993d46d2614c8891bb7acc777a17d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a6e28cf57128092e5cd33604df8b73ba') in 0.00935925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_103.png
+  artifactKey: Guid(f9b7bf49b342f44bbb0d4bf44a8dbe84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_103.png using Guid(f9b7bf49b342f44bbb0d4bf44a8dbe84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8dc8755232dc92116785409be841f9e1') in 0.009423875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/4 Icons/Icons_10.png
+  artifactKey: Guid(32b342957879a4c068ba0666cdec26f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/4 Icons/Icons_10.png using Guid(32b342957879a4c068ba0666cdec26f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e24b843bf0a00d23f0562fe5a3d40a9a') in 0.013017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Rocks/4.png
+  artifactKey: Guid(1d94c4c39a5ef41e0af9557dbe2afb81) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Rocks/4.png using Guid(1d94c4c39a5ef41e0af9557dbe2afb81) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '07249fc40380db74c5fd14e5dcd59e52') in 0.008191833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/3 Objects/Fishbarrel2.png
+  artifactKey: Guid(4c1444945c81e4f2c942673c2a31c6bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/3 Objects/Fishbarrel2.png using Guid(4c1444945c81e4f2c942673c2a31c6bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '61d99d98f0825722307bae5e137c5515') in 0.0073825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Shadows/e4.png
+  artifactKey: Guid(846ae64e401bd43ed8dde4840e9161ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Shadows/e4.png using Guid(846ae64e401bd43ed8dde4840e9161ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7e832b6b3f0f5a9c16ae3eb927ebeda8') in 0.00827775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Shadows/r6.png
+  artifactKey: Guid(7c62da4f8f4c7492eb914e4e2f8aa1bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Shadows/r6.png using Guid(7c62da4f8f4c7492eb914e4e2f8aa1bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '27b0ece8e4458df3c5eb571d4f89460d') in 0.006446542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Shadows/e5.png
+  artifactKey: Guid(bca1296355b4d47e88aa3936aec69c7f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Shadows/e5.png using Guid(bca1296355b4d47e88aa3936aec69c7f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '136df5e011de807d4d4ad0c856a5f478') in 0.00997075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Shadows/r3.png
+  artifactKey: Guid(af85f013c008c4207a37a2fc52450b28) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Shadows/r3.png using Guid(af85f013c008c4207a37a2fc52450b28) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ec594ce9af0f2f9cd1aeb30292dcbfdc') in 0.010200084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Houses/6.png
+  artifactKey: Guid(1f677a269f6b145f281d21de9f7c09a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Houses/6.png using Guid(1f677a269f6b145f281d21de9f7c09a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1b5eabd651655c373e42aa7e8b51c33e') in 0.011158542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_46.png
+  artifactKey: Guid(abe4b615d051e42e7bad48a277fc4422) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_46.png using Guid(abe4b615d051e42e7bad48a277fc4422) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '45b1699976f9027ea035f2bce04a26aa') in 0.01047875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_33.png
+  artifactKey: Guid(872e1f033d1a4464f8d4cb7ab38a1759) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_33.png using Guid(872e1f033d1a4464f8d4cb7ab38a1759) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '433b71eed9c1840ddc3ebcf18d2fa6e7') in 0.006563792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Trees/2.png
+  artifactKey: Guid(636beb5e5c25d4390876fcafcaf341b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Trees/2.png using Guid(636beb5e5c25d4390876fcafcaf341b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '58e19b92fc201aaecbaae36c5a271e56') in 0.008032084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/UI/Stars.png
+  artifactKey: Guid(04d383dded179444eb09c0d115c84ed3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/UI/Stars.png using Guid(04d383dded179444eb09c0d115c84ed3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0941581c4cfc9ceea98a3c2cbf01c574') in 0.012220583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_77.png
+  artifactKey: Guid(5eb48568214ff418d9ca89cad7e66bc2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_77.png using Guid(5eb48568214ff418d9ca89cad7e66bc2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '85808fed3047342fa48aeaefcabf0122') in 0.01025125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Crystals/4.png
+  artifactKey: Guid(7f834b9b65f68490f862b2a45427c65e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Crystals/4.png using Guid(7f834b9b65f68490f862b2a45427c65e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '78bcdb0de648774ad6c95207080b8b86') in 0.007321542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_45.png
+  artifactKey: Guid(9040fe0f799a0472593ad1b54a611d36) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_45.png using Guid(9040fe0f799a0472593ad1b54a611d36) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e289951c706a8b12ff694c246e938c4c') in 0.006989541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Crystals/3.png
+  artifactKey: Guid(6d460d1a77cc84e61a064de9f84636d2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Crystals/3.png using Guid(6d460d1a77cc84e61a064de9f84636d2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0e022ff5d243249a292fbb7f62c93960') in 0.007313 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/4 Icons
+  artifactKey: Guid(fe7dbe41852ec4e9289f4ed81a1f717e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/4 Icons using Guid(fe7dbe41852ec4e9289f4ed81a1f717e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8580d4bcbb479e42d0dccd8e97649348') in 0.006912334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/UI/Dot.png
+  artifactKey: Guid(e1fc024b0acb64a58bbdd3f5ace536cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/UI/Dot.png using Guid(e1fc024b0acb64a58bbdd3f5ace536cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a636263b836da35d129cd2e714e01d7f') in 0.010709167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_131.png
+  artifactKey: Guid(b5ace4fb67cdc46449292c17269149fd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_131.png using Guid(b5ace4fb67cdc46449292c17269149fd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f6e54edd5414e4f920202cd975dbe428') in 0.012873584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Rocks/6.png
+  artifactKey: Guid(d641c725fb3a5475b97dcfbf0bb08a53) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Rocks/6.png using Guid(d641c725fb3a5475b97dcfbf0bb08a53) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c98c280c8b0c4931ef7f116acdd31456') in 0.009590417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Shadows/s6.png
+  artifactKey: Guid(72361f56ce4924f57b2267593abeacaa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Shadows/s6.png using Guid(72361f56ce4924f57b2267593abeacaa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '34c0ab883859f4e51eb2b81a17bfc78e') in 0.008748167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_72.png
+  artifactKey: Guid(aea6c05018e7c4616b97a4691c25ec6f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_72.png using Guid(aea6c05018e7c4616b97a4691c25ec6f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7609fd302aa53057080e2be76d94b608') in 0.008573791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Shadows/r5.png
+  artifactKey: Guid(fe792cbe5afc7462bb131922bd8d6af6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Shadows/r5.png using Guid(fe792cbe5afc7462bb131922bd8d6af6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '112fad6c2d394013bb6434ad17ad0bb1') in 0.008821959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack
+  artifactKey: Guid(ce398624c965f4a15a4bf21184f48f7f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack using Guid(ce398624c965f4a15a4bf21184f48f7f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '00d707e84b883ff7dd0fde0f46a2449f') in 0.004809125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art
+  artifactKey: Guid(4afbfa902b3c1449e9f893f6527e300c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art using Guid(4afbfa902b3c1449e9f893f6527e300c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6ed303fce8c93d9cd900973f104f0ad8') in 0.005464042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Bushes
+  artifactKey: Guid(ec55920a7bc1a49fe8fc5a0d0199687f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Bushes using Guid(ec55920a7bc1a49fe8fc5a0d0199687f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '75fa8c09ab08870953f6c1ded778b2fe') in 0.004750708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_84.png
+  artifactKey: Guid(cca7ee05696e74b8987fc9eda48faf98) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_84.png using Guid(cca7ee05696e74b8987fc9eda48faf98) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fb5eeece9228cbd794a2fd728691d3dd') in 0.009023625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/1 Fisherman/Fisherman_walk.png
+  artifactKey: Guid(5aad9611cddc545e49949b5a9034a069) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/1 Fisherman/Fisherman_walk.png using Guid(5aad9611cddc545e49949b5a9034a069) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '52bb01fae04acc7a20685ae586f00847') in 0.011136667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/UI/circle5.png
+  artifactKey: Guid(43c184fd347f44e34bc03355c56ae0df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/UI/circle5.png using Guid(43c184fd347f44e34bc03355c56ae0df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a9f7fe2196ed3b0fb78bbec1123b7f56') in 0.011098417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_26.png
+  artifactKey: Guid(defa04ff1067642eba642854ec53165c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_26.png using Guid(defa04ff1067642eba642854ec53165c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ea69a80e6f916a599e365710cd37acb4') in 0.009064583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_118.png
+  artifactKey: Guid(d666a7a34481c4b4fab4c8ee3f1206d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_118.png using Guid(d666a7a34481c4b4fab4c8ee3f1206d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0df1e94ea1a6f780074d0f0b898c47ac') in 0.012220709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_127.png
+  artifactKey: Guid(f9f2ed9d492ef4904a3baf4d826ad53a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_127.png using Guid(f9f2ed9d492ef4904a3baf4d826ad53a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dc814f01462f8a7289e0df63afaafd33') in 0.011152583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/UI/circle4.png
+  artifactKey: Guid(05d7946d0e699414ba762c0ead5e5ace) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/UI/circle4.png using Guid(05d7946d0e699414ba762c0ead5e5ace) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2435a24205f3b6b73be264c08d9dd8c0') in 0.007370375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Shadows/r2.png
+  artifactKey: Guid(56a0c45be54d64358a0188a1fa59a79a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Shadows/r2.png using Guid(56a0c45be54d64358a0188a1fa59a79a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd585858e811114ef08f74041c94ac3ff') in 0.008318208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/3 Objects/Catch/8.png
+  artifactKey: Guid(9aca75265b73d44d6a16531791156ef5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/3 Objects/Catch/8.png using Guid(9aca75265b73d44d6a16531791156ef5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '813b87809092479fbb5135a0b7218da7') in 0.008114333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_75.png
+  artifactKey: Guid(67649d66dcb834c1580631c556db2868) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_75.png using Guid(67649d66dcb834c1580631c556db2868) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9e3f198e6959c32892c38a3ab7f63041') in 0.010545291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects
+  artifactKey: Guid(d220e099940204ce4afc2ad3ae6422f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects using Guid(d220e099940204ce4afc2ad3ae6422f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5f6402c55cd834131e99df436128ee19') in 0.007168666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/3 Objects/Boat.png
+  artifactKey: Guid(dcee664d0c5d546dabbf2d05e6629309) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/3 Objects/Boat.png using Guid(dcee664d0c5d546dabbf2d05e6629309) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fa2caeae2b8b9bc34c7fbf9ea8482b8f') in 0.012057292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_08.png
+  artifactKey: Guid(281163f4fc2b74a06b92412c64dadf1b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_08.png using Guid(281163f4fc2b74a06b92412c64dadf1b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a34f17df6373243b826f6939f2e70bd1') in 0.010760875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_73.png
+  artifactKey: Guid(202934972013047ac8323a74aad36537) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_73.png using Guid(202934972013047ac8323a74aad36537) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aedef229236969033e4d214e2b7d5427') in 0.015216583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Ruins/1.png
+  artifactKey: Guid(f21573f6f29d046cd8121f1a4e498640) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Ruins/1.png using Guid(f21573f6f29d046cd8121f1a4e498640) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3e89ed349dbbb3609b9c89cffe1fda02') in 0.009703209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_58.png
+  artifactKey: Guid(3f40df114a5ec4748995671a160db2d4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Tiles/Map_tile_58.png using Guid(3f40df114a5ec4748995671a160db2d4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd6aa5b4f8b0d539202d5457a603346cb') in 0.011105917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/4 Icons/Icons_03.png
+  artifactKey: Guid(fdccd55c21fe94355b65a43100692023) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/4 Icons/Icons_03.png using Guid(fdccd55c21fe94355b65a43100692023) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'af15edf7e6cb15dc4432264d07e25966') in 0.010757791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Rocks/5.png
+  artifactKey: Guid(7c67a64d1644c40aeb41fd37f0f22408) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Rocks/5.png using Guid(7c67a64d1644c40aeb41fd37f0f22408) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '87b81eccdbc195403e11e65a950fbffb') in 0.010640292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x353387000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.681 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.494 seconds
+Domain Reload Profiling: 1178ms
+	BeginReloadAssembly (205ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (23ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (80ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (426ms)
+		LoadAssemblies (292ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (177ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (152ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (494ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (395ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (112ms)
+			ProcessInitializeOnLoadAttributes (231ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7060 unused Assets / (3.9 MB). Loaded Objects now: 7890.
+Memory consumption went from 179.4 MB to 175.5 MB.
+Total: 6.886666 ms (FindLiveObjects: 0.422083 ms CreateObjectMapping: 0.246709 ms MarkObjects: 4.915208 ms  DeleteObjects: 1.302416 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f75f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.551 seconds
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.483 seconds
+Domain Reload Profiling: 1036ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (374ms)
+		LoadAssemblies (249ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (155ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (137ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (483ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (389ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (119ms)
+			ProcessInitializeOnLoadAttributes (220ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7058 unused Assets / (3.9 MB). Loaded Objects now: 7893.
+Memory consumption went from 171.7 MB to 167.8 MB.
+Total: 7.357875 ms (FindLiveObjects: 0.302667 ms CreateObjectMapping: 0.259916 ms MarkObjects: 5.213750 ms  DeleteObjects: 1.581375 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16f7eb000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.530 seconds
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.501 seconds
+Domain Reload Profiling: 1034ms
+	BeginReloadAssembly (128ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (354ms)
+		LoadAssemblies (224ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (159ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (140ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (501ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (405ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (118ms)
+			ProcessInitializeOnLoadAttributes (233ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7058 unused Assets / (3.7 MB). Loaded Objects now: 7896.
+Memory consumption went from 164.0 MB to 160.3 MB.
+Total: 7.321541 ms (FindLiveObjects: 0.415500 ms CreateObjectMapping: 0.246875 ms MarkObjects: 5.156833 ms  DeleteObjects: 1.502125 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 508.714138 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/1 Fisherman/Fisherman_death.png
+  artifactKey: Guid(7d61ed734c9ac4a33bd1e16394be4a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/1 Fisherman/Fisherman_death.png using Guid(7d61ed734c9ac4a33bd1e16394be4a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '896d406518d699937ae090944c55194f') in 0.193899375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/1 Fisherman/Fisherman_hook.png
+  artifactKey: Guid(9a61f5245417049519474c443ca9b9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/1 Fisherman/Fisherman_hook.png using Guid(9a61f5245417049519474c443ca9b9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59ccb6f0d1e629cf625504e4d871c3b0') in 0.020537917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/1 Fisherman/Fisherman_row.png
+  artifactKey: Guid(315a25b95eca64d0a96d0774eaf6f291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/1 Fisherman/Fisherman_row.png using Guid(315a25b95eca64d0a96d0774eaf6f291) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '350041439071b9c07481dd17a2d1f65b') in 0.022403416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/1 Fisherman/Fisherman_fish.png
+  artifactKey: Guid(d715daa8fd52349b9ad48ce73bb4813d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/1 Fisherman/Fisherman_fish.png using Guid(d715daa8fd52349b9ad48ce73bb4813d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07fc97675cae618715cbec331dd6e4e8') in 0.021904917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.450621 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/2 Character animation/GraveRobber_hook.png
+  artifactKey: Guid(021bb5dec279743b186471505812c018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/2 Character animation/GraveRobber_hook.png using Guid(021bb5dec279743b186471505812c018) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fefeb0e42ddb6c0c81c3b9ccfbc187b5') in 0.023403125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/2 Character animation/GraveRobber_row.png
+  artifactKey: Guid(ebe6241c47c98440fb05823c6d015642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/2 Character animation/GraveRobber_row.png using Guid(ebe6241c47c98440fb05823c6d015642) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96dcd09476e848a871ffeb24d033147f') in 0.016912542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/2 Character animation/SteamMan_row.png
+  artifactKey: Guid(644d38198b35440dd800c6642c763218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/2 Character animation/SteamMan_row.png using Guid(644d38198b35440dd800c6642c763218) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1dd148719e4d2a77ab876af46f33f2e') in 0.016411666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/2 Character animation/Woodcutter_row.png
+  artifactKey: Guid(600051104b3df46e0bdddef21a9e4844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/2 Character animation/Woodcutter_row.png using Guid(600051104b3df46e0bdddef21a9e4844) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69076e78523240056fcfb4eb250f1293') in 0.014333333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/2 Character animation/Woodcutter_hook.png
+  artifactKey: Guid(a5d1c34c22149405493cb1ca6b09f375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/2 Character animation/Woodcutter_hook.png using Guid(a5d1c34c22149405493cb1ca6b09f375) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4276f8b29f2c2200525fec78346b963e') in 0.016567791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.417301 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/3 Objects/Boat2.png
+  artifactKey: Guid(7211c385a1e024579889f1fdbc9f1b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/3 Objects/Boat2.png using Guid(7211c385a1e024579889f1fdbc9f1b65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85b81b572e0d4d36006f35af442e29ac') in 0.01513875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/3 Objects/Fishbarrel3.png
+  artifactKey: Guid(8348387a40e264d2da6993cb0000398c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/3 Objects/Fishbarrel3.png using Guid(8348387a40e264d2da6993cb0000398c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '170c4110afa08f10c751e2ed02862618') in 0.017408084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/3 Objects/Grass3.png
+  artifactKey: Guid(57aec8e4cb2d946c4a4aa0bc00d036fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/3 Objects/Grass3.png using Guid(57aec8e4cb2d946c4a4aa0bc00d036fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52f74088e67df7f9d3714d814b9452f5') in 0.012622125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/3 Objects/Fish-rod.png
+  artifactKey: Guid(5705544f970054ce1bb17ed71f577071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/3 Objects/Fish-rod.png using Guid(5705544f970054ce1bb17ed71f577071) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da4c46cbfe2446c4b3ca5305cb03901a') in 0.013478083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/3 Objects/Water.png
+  artifactKey: Guid(a22bf76f4861e4db3bb6ceaa883b5169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/3 Objects/Water.png using Guid(a22bf76f4861e4db3bb6ceaa883b5169) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c4a590e1b38ad4608d2b11c3f0614d9') in 0.02163125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.429174 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/4 Icons/Icons_03.png
+  artifactKey: Guid(fdccd55c21fe94355b65a43100692023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/4 Icons/Icons_03.png using Guid(fdccd55c21fe94355b65a43100692023) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c399fb0db9f71395fe8240db432b8ff9') in 0.016533208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/4 Icons/Icons_07.png
+  artifactKey: Guid(19cdf4e72bd6748f7ba9bbf241d623c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/4 Icons/Icons_07.png using Guid(19cdf4e72bd6748f7ba9bbf241d623c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03573ee497b6c0c7c1f5f1bc8240aff4') in 0.010026334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/4 Icons/Icons_19.png
+  artifactKey: Guid(a98808334beba46c8b0636aa4b2ee4c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/4 Icons/Icons_19.png using Guid(a98808334beba46c8b0636aa4b2ee4c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83bc015083e4be9c7fda10763ea08c9e') in 0.013215916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/4 Icons/Icons_08.png
+  artifactKey: Guid(e09e893e66e504307af745f13dbba28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/4 Icons/Icons_08.png using Guid(e09e893e66e504307af745f13dbba28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36e4c585d476f22a4abcf92cff905092') in 0.01110575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/4 Icons/Icons_15.png
+  artifactKey: Guid(96cca7a69a55f401da85da5fe1100b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/4 Icons/Icons_15.png using Guid(96cca7a69a55f401da85da5fe1100b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b14b3e3e2ebfccce1f8ed90f83c7decd') in 0.011750208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/4 Icons/Icons_06.png
+  artifactKey: Guid(fec26c52c28844969901d3bf6ae6eebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/4 Icons/Icons_06.png using Guid(fec26c52c28844969901d3bf6ae6eebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74aaebdb921cc80b304c1ab009ef66d6') in 0.01477175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/fishing-game-assets-pixel-art-pack/4 Icons/Icons_18.png
+  artifactKey: Guid(ccf841cefb965487f822acb4fcf77278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/fishing-game-assets-pixel-art-pack/4 Icons/Icons_18.png using Guid(ccf841cefb965487f822acb4fcf77278) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b3c76126aabccce97e846ffe394b74e') in 0.010882042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.249678 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Fog/Fog_03.png
+  artifactKey: Guid(697a5508ccbab4dd7be0dd8b5947446c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Fog/Fog_03.png using Guid(697a5508ccbab4dd7be0dd8b5947446c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '851f0f95a868d15a3487f7b0cfaa316a') in 0.028483667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Fog/Fog_16.png
+  artifactKey: Guid(1ee953d4f0730466a8ce77f0c57f9d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Fog/Fog_16.png using Guid(1ee953d4f0730466a8ce77f0c57f9d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5cb98ef6c8d7a24308f31ad014d4e505') in 0.012068166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Fog/Fog_04.png
+  artifactKey: Guid(df8891ce84b3043658994e21f0b7921f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Fog/Fog_04.png using Guid(df8891ce84b3043658994e21f0b7921f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd48c8c42130f0b08d69bef8be3ce65e5') in 0.011787958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Fog/Fog_12.png
+  artifactKey: Guid(6b2220f80b29646938d48a469f7b96a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Fog/Fog_12.png using Guid(6b2220f80b29646938d48a469f7b96a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f963aa7d1a0e1bd51d9e3965d8da513') in 0.00963425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Fog/Fog_10.png
+  artifactKey: Guid(5cc366ca868914a7d8a796b92c657016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Fog/Fog_10.png using Guid(5cc366ca868914a7d8a796b92c657016) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '534a5b1e13f07d05395794b8cdd7dc7d') in 0.016311708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Fog/Fog_14.png
+  artifactKey: Guid(ec47483d9b6934d3d9110fcee0dec4f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Fog/Fog_14.png using Guid(ec47483d9b6934d3d9110fcee0dec4f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f81e495ee6898621c69849d19583d84') in 0.010736333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.842280 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Bushes/3.png
+  artifactKey: Guid(05ace395e79f34d1786749cb69ee504a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Bushes/3.png using Guid(05ace395e79f34d1786749cb69ee504a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ffd6d4a1c2ad32366f14d4bc31dff018') in 0.019960958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Bushes/4.png
+  artifactKey: Guid(dbe569c2f434f473b9f480d0455cd739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Bushes/4.png using Guid(dbe569c2f434f473b9f480d0455cd739) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0f69208a568637755ceeff9ce23ecea') in 0.015624083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.950110 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Crystals/3.png
+  artifactKey: Guid(6d460d1a77cc84e61a064de9f84636d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Crystals/3.png using Guid(6d460d1a77cc84e61a064de9f84636d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e8463d5a0e97f662b6ed9111ee7aa4e0') in 0.0169245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Crystals/4.png
+  artifactKey: Guid(7f834b9b65f68490f862b2a45427c65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Crystals/4.png using Guid(7f834b9b65f68490f862b2a45427c65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d9768c3b854682595f9841935043091') in 0.016207291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.363247 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Grass/3.png
+  artifactKey: Guid(c4e58605988c6401d804cf8b3dff9889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Grass/3.png using Guid(c4e58605988c6401d804cf8b3dff9889) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3238bf2eb7a436f3deb185bff94f408f') in 0.014991333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Grass/10.png
+  artifactKey: Guid(136924c83b3484cfb8a10651db91e68f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Grass/10.png using Guid(136924c83b3484cfb8a10651db91e68f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4427e8c2a7d3bfa690a73605675c932') in 0.015693792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Grass/8.png
+  artifactKey: Guid(67899f229fd464596a5a4b7051fb378c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Grass/8.png using Guid(67899f229fd464596a5a4b7051fb378c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '747ebc41e068fc1e5863dff21a7cfe1e') in 0.016719541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.797288 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Houses/3.png
+  artifactKey: Guid(84ebfbfb432594104aa3ab309e5ae974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Houses/3.png using Guid(84ebfbfb432594104aa3ab309e5ae974) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1df3869d9e13b6af8df05a52f868bdeb') in 0.018706291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Houses/5.png
+  artifactKey: Guid(671cd98f2e7a447379a2801ce75c2158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Houses/5.png using Guid(671cd98f2e7a447379a2801ce75c2158) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3043aba2d23b7bc76220f020d591de8') in 0.015037959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.515022 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Other/Ship2.png
+  artifactKey: Guid(7479cba8ae8e14ec3b20b6f8c0b3228c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Other/Ship2.png using Guid(7479cba8ae8e14ec3b20b6f8c0b3228c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91ef4917e0253c7065ebd0628b568aa2') in 0.017332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.620812 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Rocks/3.png
+  artifactKey: Guid(aec60f057e7d44cdda122e7304d922af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Rocks/3.png using Guid(aec60f057e7d44cdda122e7304d922af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b49b70fcf705ea458933172b5b45454') in 0.015059583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Rocks/5.png
+  artifactKey: Guid(7c67a64d1644c40aeb41fd37f0f22408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Rocks/5.png using Guid(7c67a64d1644c40aeb41fd37f0f22408) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e9ee9643e2cd071baa95c0cb4f62f10') in 0.016502125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Rocks/6.png
+  artifactKey: Guid(d641c725fb3a5475b97dcfbf0bb08a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Rocks/6.png using Guid(d641c725fb3a5475b97dcfbf0bb08a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf9a159324e1bbcaed55238b5c8b4f65') in 0.01416375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.476023 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Ruins/3.png
+  artifactKey: Guid(7b4fd64fddce3489f9896d0098f05082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Ruins/3.png using Guid(7b4fd64fddce3489f9896d0098f05082) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'afccf6705d7aa7386f01d7f3d5d434c6') in 0.02066775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.537151 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Trees/3.png
+  artifactKey: Guid(3e648b91bedb74237bfd8fce6c4fcc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Trees/3.png using Guid(3e648b91bedb74237bfd8fce6c4fcc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b7908e89d24b6b1d8331925b323e4d1') in 0.017637125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Trees/4.png
+  artifactKey: Guid(c9863d09586654c299312627a4709efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Trees/4.png using Guid(c9863d09586654c299312627a4709efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c3acb176b707b9719615e1a811a3d91') in 0.01366575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/level-map-pixel-art-assets-pack/Objects/Trees/5.png
+  artifactKey: Guid(a93cb059ef7a54f058199701713fbae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/level-map-pixel-art-assets-pack/Objects/Trees/5.png using Guid(a93cb059ef7a54f058199701713fbae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f6732d5644950ac8e690ec58556f9b32') in 0.014081167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.675418 seconds.
+  path: Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Angler/Hurt.png
+  artifactKey: Guid(e51ab36ba2e014f2598195e118588b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Angler/Hurt.png using Guid(e51ab36ba2e014f2598195e118588b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b48509a19e5f0ce15417d0b3438d603') in 0.040528583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Angler/Walk.png
+  artifactKey: Guid(c1b7cea473ad343f59fc433116bc52c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Angler/Walk.png using Guid(c1b7cea473ad343f59fc433116bc52c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1f675429eff81201e8e221eb74cb2ff') in 0.021527417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.857009 seconds.
+  path: Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Electric Eel/Hurt.png
+  artifactKey: Guid(46fa3b527bb294c0fa60d385a8a47ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Electric Eel/Hurt.png using Guid(46fa3b527bb294c0fa60d385a8a47ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4479a98b9720ce5c818253459e93c81b') in 0.016481042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Electric Eel/Idle.png
+  artifactKey: Guid(53c29d4d2904d45eaa3e1d2e192d235b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/octopus-jellyfish-shark-and-turtle-free-sprite-pixel-art/Electric Eel/Idle.png using Guid(53c29d4d2904d45eaa3e1d2e192d235b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9cca93d6f61435daf9089357589d8a0e') in 0.016604959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+

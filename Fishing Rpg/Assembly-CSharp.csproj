@@ -47,8 +47,11 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.3.9f1/Unity.app/Contents/Resources/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Scripts/Shop/Shop Manager.cs" />
     <Compile Include="Assets/Scripts/Fishing Game/FishingHook.cs" />
     <Compile Include="Assets/Scripts/Player/CameraFollow.cs" />
+    <Compile Include="Assets/Scripts/Shop/ShopSceneChange.cs" />
+    <Compile Include="Assets/Scripts/Shop/FadeAwayText.cs" />
     <Compile Include="Assets/Scripts/Fishing Game/Fishing Game.cs" />
     <Compile Include="Assets/Scripts/Fishing Game/FishingRod.cs" />
     <Compile Include="Assets/Scripts/Fish/FishManager.cs" />
@@ -57,6 +60,9 @@
     <Compile Include="Assets/Scripts/Fish/FishObj.cs" />
     <Compile Include="Assets/Scripts/Tilemap Code/SceneTransition.cs" />
     <Compile Include="Assets/Scripts/Tilemap Code/Player.cs" />
+    <Compile Include="Assets/Scripts/Shop/ButtonInfo.cs" />
+    <None Include="Assets/Art/level-map-pixel-art-assets-pack/Font.txt" />
+    <None Include="Assets/Art/fishing-game-assets-pixel-art-pack/Font.txt" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/6000.3.9f1/Unity.app/Contents/Resources/Scripting/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
