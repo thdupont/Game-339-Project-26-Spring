@@ -34,6 +34,14 @@ namespace Game.Runtime
             
             var stringService = new StringService(logger);
             container.RegisterSingletonInstance<IStringService>(stringService);
+
+            var attackService = new AttackService(logger);
+            container.RegisterSingletonInstance(attackService);
+
+            var characterManager = new CharacterManager(logger);
+            characterManager.Add(new Character("sandy", "Sandy, the Corgi", 10, 3, 1));
+            characterManager.Add(new Character("squirrel", "Evil Squirrel", 5, 2, 1));
+            container.RegisterSingletonInstance(characterManager);
             
             return container;
         });
