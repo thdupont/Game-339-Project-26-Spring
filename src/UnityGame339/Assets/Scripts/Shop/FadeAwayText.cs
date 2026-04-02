@@ -1,0 +1,36 @@
+using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.EventSystems;
+
+public class FadeAwayText : MonoBehaviour
+{
+    private float fadeTime;
+    private Text fadeAwayText;
+    
+    void Start()
+    {
+        fadeAwayText = GetComponent<Text>();
+        fadeTime = 0;
+    }
+    
+    void Update()
+    {
+        if (fadeTime > 0)
+        {
+            fadeAwayText.color = new Color(fadeAwayText.color.r, fadeAwayText.color.g, fadeAwayText.color.b, fadeTime);
+            fadeTime -= Time.deltaTime;
+        }
+
+        if (fadeTime <= 0)
+        {
+            fadeAwayText.enabled = false;
+        }
+    }
+
+    public void MakeTextVisible()
+    {
+        fadeAwayText.enabled = true;
+        fadeAwayText.color = new Color(fadeAwayText.color.r, fadeAwayText.color.g, fadeAwayText.color.b, 100);
+        fadeTime = 2;
+    }
+}
