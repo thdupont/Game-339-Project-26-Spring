@@ -33,7 +33,8 @@ public class TurnBasedCombat : MonoBehaviour
 
         if (currentTurn == GameTurn.Enemy)
         {
-            
+            Debug.Log("enemy turn");
+            currentTurn = GameTurn.Player;
         }
     }
     
@@ -48,7 +49,11 @@ public class TurnBasedCombat : MonoBehaviour
     public void OnPlayerAttack()
     {
         enemyFighter.TakeDamage(playerFighter.GetFishDamage());
+        Debug.Log("player did: " +  playerFighter.GetFishDamage() + " Damage" + " Enemy HP now: " + enemyFighter.fishData.Health);
+
+        currentTurn = GameTurn.Enemy;
     }
+    
 
     public void OnEnemyTurn()
     {
