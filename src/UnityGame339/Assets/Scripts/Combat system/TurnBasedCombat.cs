@@ -5,9 +5,13 @@ using UnityEngine.InputSystem;
 
 public class TurnBasedCombat : MonoBehaviour
 {
-    [SerializeField] private GameObject player;
+    [SerializeField] private GameObject fighterPrefab;
+    [SerializeField] private Transform playerSpawnPoint;
+    [SerializeField] private Transform enemySpawnPoint;
+
+    private GameObject player;
     private TurnBasedFighter playerFighter;
-    [SerializeField] private GameObject enemy;
+    private GameObject enemy;
     private TurnBasedFighter enemyFighter;
 
     [Header("Parry UI")]
@@ -39,8 +43,32 @@ public class TurnBasedCombat : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        InitTurnBasedCombat(FishContainer.GetFishByName("Joe Fish"), FishContainer.GetFishByName("Evil fucking fish"));
+    }
+
+
+
+    public void InitTurnBasedCombat(FishDataObj playerFish, FishDataObj enemyFish)
+    {
+        if (player == null)
+        {
+            player = Instantiate(fighterPrefab, playerSpawnPoint.position, playerSpawnPoint.rotation);
+        }
         playerFighter = player.GetComponent<TurnBasedFighter>();
+        playerFighter.InitFishFighter(playerFish);
+
+        if (enemy == null)
+        {
+            enemy = Instantiate(fighterPrefab, enemySpawnPoint.position, enemySpawnPoint.rotation);
+        }
         enemyFighter = enemy.GetComponent<TurnBasedFighter>();
+        enemyFighter.InitFishFighter(enemyFish);
+    }
+
+
+    public void AttachUI()
+    {
+        
     }
 
     // Update is called once per frame
@@ -179,11 +207,19 @@ public class TurnBasedCombat : MonoBehaviour
     public void SetPlayer(GameObject player)
     {
         this.player = player;
+        if (player != null)
+        {
+            playerFighter = player.GetComponent<TurnBasedFighter>();
+        }
     }
 
     public void SetEnemy(GameObject enemy)
     {
         this.enemy = enemy;
+        if (enemy != null)
+        {
+            enemyFighter = enemy.GetComponent<TurnBasedFighter>();
+        }
     }
 
 }

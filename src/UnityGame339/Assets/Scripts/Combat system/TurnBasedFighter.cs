@@ -10,9 +10,10 @@ public class TurnBasedFighter : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        fishData.Health = fishData.MaxHealth;
-        healthBar = transform.GetComponentInChildren<Image>();
-        UpdateHealthBar();
+        if (fishData != null)
+        {
+            InitFishFighter(fishData);
+        }
     }
 
     // Update is called once per frame
@@ -21,8 +22,11 @@ public class TurnBasedFighter : MonoBehaviour
         
     }
 
-    public void InitFishFighter()
+    public void InitFishFighter(FishDataObj data)
     {
+        fishData = data;
+        fishData.Health = fishData.MaxHealth;
+        healthBar = transform.GetComponentInChildren<Image>();
         setFishSprite();
         UpdateHealthBar();
     }
@@ -66,7 +70,10 @@ public class TurnBasedFighter : MonoBehaviour
     private void setFishSprite()
     {
         SpriteRenderer spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
-        spriteRenderer.sprite = fishData.FishSprite;
+        if (spriteRenderer != null && fishData != null)
+        {
+            spriteRenderer.sprite = fishData.FishSprite;
+        }
     }
     
     
