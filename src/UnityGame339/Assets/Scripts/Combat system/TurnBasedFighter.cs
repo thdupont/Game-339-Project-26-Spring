@@ -14,7 +14,10 @@ public class TurnBasedFighter : MonoBehaviour
         {
             InitFishFighter(fishData);
         }
+        fishData.Health = fishData.MaxHealth;
     }
+    
+    
 
     // Update is called once per frame
     void Update()
@@ -74,6 +77,12 @@ public class TurnBasedFighter : MonoBehaviour
         {
             spriteRenderer.sprite = fishData.FishSprite;
         }
+    }
+
+    public void FlipFishSprite()
+    {
+        SpriteRenderer spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
+        spriteRenderer.flipX = true;
     }
     
     
