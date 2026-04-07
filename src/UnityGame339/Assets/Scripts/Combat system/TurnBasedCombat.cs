@@ -5,9 +5,13 @@ using UnityEngine.InputSystem;
 
 public class TurnBasedCombat : MonoBehaviour
 {
-    [SerializeField] private GameObject player;
+    [SerializeField] private GameObject fighterPrefab;
+    [SerializeField] private Transform playerSpawnPoint;
+    [SerializeField] private Transform enemySpawnPoint;
+
+    private GameObject player;
     private TurnBasedFighter playerFighter;
-    [SerializeField] private GameObject enemy;
+    private GameObject enemy;
     private TurnBasedFighter enemyFighter;
 
     [Header("Parry UI")]
@@ -39,8 +43,33 @@ public class TurnBasedCombat : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        InitTurnBasedCombat(FishContainer.GetRandomFish(), FishContainer.GetRandomFish());
+    }
+
+
+
+    public void InitTurnBasedCombat(FishDataObj playerFish, FishDataObj enemyFish)
+    {
+        if (player == null)
+        {
+            player = Instantiate(fighterPrefab, playerSpawnPoint.position, playerSpawnPoint.rotation);
+        }
         playerFighter = player.GetComponent<TurnBasedFighter>();
+        playerFighter.InitFishFighter(playerFish);
+
+        if (enemy == null)
+        {
+            enemy = Instantiate(fighterPrefab, enemySpawnPoint.position, enemySpawnPoint.rotation);
+        }
         enemyFighter = enemy.GetComponent<TurnBasedFighter>();
+        enemyFighter.InitFishFighter(enemyFish);
+        enemyFighter.FlipFishSprite();
+    }
+
+
+    public void AttachUI()
+    {
+        
     }
 
     // Update is called once per frame
@@ -107,6 +136,11 @@ public class TurnBasedCombat : MonoBehaviour
         // Reduce damage or take no damage
         // We'll call enemy attack now but with reduced effect or handle it here
         enemyFighter.TakeDamage(0); // For now, maybe reflect damage or just block
+        
+        if (enemyFighter.fishData.Health <= 0)
+        {
+            OnPlayerWin();
+        }
     }
 
     private void OnParryFail(string message)
@@ -115,6 +149,11 @@ public class TurnBasedCombat : MonoBehaviour
         Debug.Log("Parry Fail: " + message);
         playerFighter.TakeDamage(enemyFighter.GetFishDamage());
         Debug.Log("Enemy did: " + enemyFighter.GetFishDamage() + " Damage. Player HP now: " + playerFighter.fishData.Health);
+        
+        if (playerFighter.fishData.Health <= 0)
+        {
+            OnPlayerLose();
+        }
     }
 
     private void FinishEnemyTurn()
@@ -122,7 +161,12 @@ public class TurnBasedCombat : MonoBehaviour
         isParryWindowActive = false;
         // Small delay could be added here to show the status text
         Invoke(nameof(ResetParryUI), 0.1f);
-        currentTurn = GameTurn.Player;
+        
+        // Only transition to player turn if game is not over
+        if (playerFighter.fishData.Health > 0 && enemyFighter.fishData.Health > 0)
+        {
+            currentTurn = GameTurn.Player;
+        }
     }
 
     private void ResetParryUI()
@@ -144,9 +188,28 @@ public class TurnBasedCombat : MonoBehaviour
         enemyFighter.TakeDamage(playerFighter.GetFishDamage());
         Debug.Log("player did: " +  playerFighter.GetFishDamage() + " Damage" + " Enemy HP now: " + enemyFighter.fishData.Health);
 
-        currentTurn = GameTurn.Enemy;
+        if (enemyFighter.fishData.Health <= 0)
+        {
+            OnPlayerWin();
+        }
+        else
+        {
+            currentTurn = GameTurn.Enemy;
+        }
     }
     
+
+    public void OnPlayerWin()
+    {
+        Debug.Log("Player Wins!");
+        // Add additional win logic here (e.g., rewards, scene transition)
+    }
+
+    public void OnPlayerLose()
+    {
+        Debug.Log("Player Lost!");
+        // Add additional lose logic here (e.g., game over screen, restart)
+    }
 
     public void OnEnemyTurn()
     {
@@ -179,11 +242,19 @@ public class TurnBasedCombat : MonoBehaviour
     public void SetPlayer(GameObject player)
     {
         this.player = player;
+        if (player != null)
+        {
+            playerFighter = player.GetComponent<TurnBasedFighter>();
+        }
     }
 
     public void SetEnemy(GameObject enemy)
     {
         this.enemy = enemy;
+        if (enemy != null)
+        {
+            enemyFighter = enemy.GetComponent<TurnBasedFighter>();
+        }
     }
 
 }
