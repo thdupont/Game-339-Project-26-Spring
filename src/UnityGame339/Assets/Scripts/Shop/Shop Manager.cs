@@ -7,12 +7,16 @@ public class ShopManager : MonoBehaviour
 {
     public int[,] shopItems = new int[4, 4]; // aray of shop items - [columns, rows]
     public float coins; // currency 
-    public Text CointsText;
+    public Text CoinsText;
     public FadeAwayText FadeAwayText;
+    
+    private InventoryManager inventoryManager;
     
     void Start()
     {
-        CointsText.text = "$" + coins.ToString();
+        inventoryManager = FindObjectOfType<InventoryManager>();
+        
+        CoinsText.text = "$" + coins.ToString();
         
         // IDs
         shopItems[1, 1] = 1;
@@ -31,24 +35,28 @@ public class ShopManager : MonoBehaviour
     } 
 
     
-    public void Buy()
+    public void Buy(GameObject buttonObject)
     {
-        GameObject ButtonRef = GameObject.FindGameObjectWithTag("Item").GetComponent<EventSystem>().currentSelectedGameObject;
+        var info = buttonObject.GetComponent<Item>();
 
+        int itemID = info.ItemID;
+        
         // Check if we have enough coins to purchase the item:
-        if (coins >= shopItems[2, ButtonRef.GetComponent<ButtonInfo>().ItemID])
+        if (coins >= shopItems[2, itemID])
         {
             // subtract price from our coins
-            coins -= shopItems[2, ButtonRef.GetComponent<ButtonInfo>().ItemID];
+            coins -= shopItems[2, itemID];
             
             // increase item quantity
-            shopItems[3, ButtonRef.GetComponent<ButtonInfo>().ItemID]++; 
+            shopItems[3, itemID]++; 
             
             // update coins after purchase
-            CointsText.text = "$" + coins.ToString(); 
+            CoinsText.text = "$" + coins.ToString(); 
             
             // update item quantity
-            ButtonRef.GetComponent<ButtonInfo>().QuantityText.text = shopItems[3, ButtonRef.GetComponent<ButtonInfo>().ItemID].ToString();
+            info.QuantityText.text = shopItems[3, itemID].ToString();
+            
+            info.SendToInventory();
         }
         else
         {

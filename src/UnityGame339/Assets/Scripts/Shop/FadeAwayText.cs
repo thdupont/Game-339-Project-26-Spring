@@ -30,7 +30,7 @@ public class FadeAwayText : MonoBehaviour
     public void MakeTextVisible()
     {
         fadeAwayText.enabled = true;
-        fadeAwayText.color = new Color(fadeAwayText.color.r, fadeAwayText.color.g, fadeAwayText.color.b, 100);
+        fadeAwayText.color = new Color(fadeAwayText.color.r, fadeAwayText.color.g, fadeAwayText.color.b, 1);
         fadeTime = 2;
     }
 }
