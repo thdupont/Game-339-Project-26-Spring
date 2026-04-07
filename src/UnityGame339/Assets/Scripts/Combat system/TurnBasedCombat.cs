@@ -63,6 +63,7 @@ public class TurnBasedCombat : MonoBehaviour
         }
         enemyFighter = enemy.GetComponent<TurnBasedFighter>();
         enemyFighter.InitFishFighter(enemyFish);
+        enemyFighter.FlipFishSprite();
     }
 
 
@@ -135,6 +136,11 @@ public class TurnBasedCombat : MonoBehaviour
         // Reduce damage or take no damage
         // We'll call enemy attack now but with reduced effect or handle it here
         enemyFighter.TakeDamage(0); // For now, maybe reflect damage or just block
+        
+        if (enemyFighter.fishData.Health <= 0)
+        {
+            OnPlayerWin();
+        }
     }
 
     private void OnParryFail(string message)
@@ -143,6 +149,11 @@ public class TurnBasedCombat : MonoBehaviour
         Debug.Log("Parry Fail: " + message);
         playerFighter.TakeDamage(enemyFighter.GetFishDamage());
         Debug.Log("Enemy did: " + enemyFighter.GetFishDamage() + " Damage. Player HP now: " + playerFighter.fishData.Health);
+        
+        if (playerFighter.fishData.Health <= 0)
+        {
+            OnPlayerLose();
+        }
     }
 
     private void FinishEnemyTurn()
@@ -150,7 +161,12 @@ public class TurnBasedCombat : MonoBehaviour
         isParryWindowActive = false;
         // Small delay could be added here to show the status text
         Invoke(nameof(ResetParryUI), 0.1f);
-        currentTurn = GameTurn.Player;
+        
+        // Only transition to player turn if game is not over
+        if (playerFighter.fishData.Health > 0 && enemyFighter.fishData.Health > 0)
+        {
+            currentTurn = GameTurn.Player;
+        }
     }
 
     private void ResetParryUI()
@@ -172,9 +188,28 @@ public class TurnBasedCombat : MonoBehaviour
         enemyFighter.TakeDamage(playerFighter.GetFishDamage());
         Debug.Log("player did: " +  playerFighter.GetFishDamage() + " Damage" + " Enemy HP now: " + enemyFighter.fishData.Health);
 
-        currentTurn = GameTurn.Enemy;
+        if (enemyFighter.fishData.Health <= 0)
+        {
+            OnPlayerWin();
+        }
+        else
+        {
+            currentTurn = GameTurn.Enemy;
+        }
     }
     
+
+    public void OnPlayerWin()
+    {
+        Debug.Log("Player Wins!");
+        // Add additional win logic here (e.g., rewards, scene transition)
+    }
+
+    public void OnPlayerLose()
+    {
+        Debug.Log("Player Lost!");
+        // Add additional lose logic here (e.g., game over screen, restart)
+    }
 
     public void OnEnemyTurn()
     {

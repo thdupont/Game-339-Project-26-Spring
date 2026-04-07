@@ -12,9 +12,15 @@ public class ArrowFishingGame : MonoBehaviour
     public Sprite arrowDefaultSprite;
     
     
+    
     //visual
     public GameObject fishingRod;
     public GameObject fishingHook;
+    public SpriteRenderer FisherMan;
+   
+    public Sprite fishermanSprite;
+    public Sprite fishermanActiveSprite;
+    
     
     public GameObject fishSprite;
 
@@ -104,7 +110,6 @@ public class ArrowFishingGame : MonoBehaviour
                     // Flash the arrow to give feedback
                     GameObject arrow = getArrowFromState(input.Value);
                     StartCoroutine(FlashSingleArrow(arrow));
-                    arrow.GetComponent<SpriteRenderer>().sprite = arrowDefaultSprite;
 
                     // Check if pattern is complete
                     if (playerPatternIndex >= arrowPattern.Length)
@@ -123,6 +128,7 @@ public class ArrowFishingGame : MonoBehaviour
 
     void startArrowGame()
     {
+        
         arrowPattern = GeneratePattern();
         HookEnabled(true);
         currentPatternIndex = 0;
@@ -278,6 +284,14 @@ public class ArrowFishingGame : MonoBehaviour
     private void HookEnabled(bool state)
     {
         fishingHook.SetActive(state);
+        if (state)
+        {
+            FisherMan.sprite = fishermanActiveSprite;
+        }
+        else
+        {
+            FisherMan.sprite = fishermanSprite;
+        }
         
     }
 

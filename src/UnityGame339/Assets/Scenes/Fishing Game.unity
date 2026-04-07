@@ -180,7 +180,7 @@ Transform:
   m_GameObject: {fileID: 85418963}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.6142397, y: -0.75159335, z: 0}
+  m_LocalPosition: {x: -4.46, y: -0.75159335, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -303,7 +303,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 7.88, y: -3.89, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -404,6 +404,9 @@ MonoBehaviour:
   arrowDefaultSprite: {fileID: -5535519688993350575, guid: 1baa996fac258366eaf2e554432f6022, type: 3}
   fishingRod: {fileID: 96903432}
   fishingHook: {fileID: 110637101}
+  FisherMan: {fileID: 85418965}
+  fishermanSprite: {fileID: -1647533795547516256, guid: b6290c4427984bbd2a188c0d61d46074, type: 3}
+  fishermanActiveSprite: {fileID: -5475115915694180838, guid: 1cd9c9cadd037e55eabd2ab6b7ac09d1, type: 3}
   fishSprite: {fileID: 3590887374117049779, guid: a09c6173fbd133245859aa3a81b0ec75, type: 3}
   MaxPatternLength: 8
   MinPatternLength: 5
