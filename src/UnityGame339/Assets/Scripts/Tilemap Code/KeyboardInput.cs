@@ -8,27 +8,8 @@ public class KeyboardInput : MonoBehaviour
     void Update()
     {
         Keyboard keyboard = Keyboard.current;
-        
-        
-        if (keyboard.wKey.isPressed)
-        {
-            Player.Move(Vector2.up);
-        }
-        if (keyboard.sKey.isPressed)
-        {
-            Player.Move(Vector2.down);
-        }
-        if (keyboard.aKey.isPressed)
-        {
-            Player.Move(Vector2.left);
-        }
-        if (keyboard.dKey.isPressed)
-        {
-            Player.Move(Vector2.right);
-        }
-        
-        
-        if (keyboard.eKey.wasPressedThisFrame)
+
+        if (keyboard.eKey.isPressed)
         {
             Player.Interact();
         }

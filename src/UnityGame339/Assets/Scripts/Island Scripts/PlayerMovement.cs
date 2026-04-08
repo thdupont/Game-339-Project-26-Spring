@@ -8,13 +8,7 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D rb;
     public Animator animator;
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            print("Interact");
-        }
-    }
+
     void FixedUpdate()
     {
         float horizontal = Input.GetAxis("Horizontal");
