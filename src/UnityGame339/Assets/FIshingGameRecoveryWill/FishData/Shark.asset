@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1e5946ed9f57aa8083bef43064cddfd, type: 3}
+  m_Name: Shark
+  m_EditorClassIdentifier: Assembly-CSharp::FishDataObj
+  FishName: Shark
+  FishDescription: A terror of the sea
+  Health: 10
+  AttackDamage: 1
+  MaxHealth: 10
+  Defence: 1
+  Speed: 1
+  FishSize: 1
+  FishSprite: {fileID: 3465286685962602723, guid: 7f81227cfadf640528c2090db0ba4d47, type: 3}
