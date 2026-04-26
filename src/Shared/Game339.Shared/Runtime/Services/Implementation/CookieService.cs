@@ -25,12 +25,12 @@ namespace Game339.Shared.Services.Implementation
 
             foreach (var ingredient in required)
             {
-                if (!_inventory.Counts.TryGetValue(ingredient, out int count) || count < 1)
+                if (!_inventory.Counts.TryGetValue(ingredient, out var obs) || obs.Value < 1)
                     return false;
             }
 
             foreach (var ingredient in required)
-                _inventory.Counts[ingredient]--;
+                _inventory.Counts[ingredient].Value--;
 
             return true;
         }

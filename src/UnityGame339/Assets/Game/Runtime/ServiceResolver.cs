@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using Game339.Shared;
 using Game339.Shared.DependencyInjection;
 using Game339.Shared.DependencyInjection.Implementation;
@@ -31,7 +32,7 @@ namespace Game.Runtime
 
             var damageService = new DamageService(logger);
             container.RegisterSingletonInstance<IDamageService>(damageService);
-            
+
             var stringService = new StringService(logger);
             container.RegisterSingletonInstance<IStringService>(stringService);
 
@@ -42,7 +43,20 @@ namespace Game.Runtime
             characterManager.Add(new Character("sandy", "Sandy, the Corgi", 10, 3, 1));
             characterManager.Add(new Character("squirrel", "Evil Squirrel", 5, 2, 1));
             container.RegisterSingletonInstance(characterManager);
-            
+
+            var cookieInventory = new CookieIngredientInventory(new Dictionary<CookieIngredient, int>
+            {
+                { CookieIngredient.Chocolate,    5 },
+                { CookieIngredient.Nuts,         5 },
+                { CookieIngredient.PeanutButter, 5 },
+                { CookieIngredient.Butterscotch, 5 },
+                { CookieIngredient.Sugar,        5 },
+            });
+            container.RegisterSingletonInstance(cookieInventory);
+
+            var cookieService = new CookieService(cookieInventory);
+            container.RegisterSingletonInstance<ICookieService>(cookieService);
+
             return container;
         });
     }
