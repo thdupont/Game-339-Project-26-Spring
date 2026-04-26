@@ -10,5 +10,10 @@ namespace Game339.Shared.Models
         {
             Counts = new Dictionary<CookieIngredient, int>(initialCounts);
         }
+
+        public int GetCount(CookieIngredient ingredient)
+        {
+            return Counts.TryGetValue(ingredient, out int count) ? count : 0;
+        }
     }
 }

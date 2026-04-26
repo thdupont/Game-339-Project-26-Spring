@@ -27,11 +27,11 @@ public class CookieServiceTests
         var result = svc.TryMakeCookie("Vanilla Dream");
 
         Assert.That(result, Is.True);
-        Assert.That(inventory.Counts[CookieIngredient.Chocolate],    Is.EqualTo(5));
-        Assert.That(inventory.Counts[CookieIngredient.Nuts],         Is.EqualTo(5));
-        Assert.That(inventory.Counts[CookieIngredient.PeanutButter], Is.EqualTo(5));
-        Assert.That(inventory.Counts[CookieIngredient.Butterscotch], Is.EqualTo(5));
-        Assert.That(inventory.Counts[CookieIngredient.Sugar],        Is.EqualTo(5));
+        Assert.That(inventory.GetCount(CookieIngredient.Chocolate),    Is.EqualTo(5));
+        Assert.That(inventory.GetCount(CookieIngredient.Nuts),         Is.EqualTo(5));
+        Assert.That(inventory.GetCount(CookieIngredient.PeanutButter), Is.EqualTo(5));
+        Assert.That(inventory.GetCount(CookieIngredient.Butterscotch), Is.EqualTo(5));
+        Assert.That(inventory.GetCount(CookieIngredient.Sugar),        Is.EqualTo(5));
     }
 
     [Test]
@@ -43,8 +43,8 @@ public class CookieServiceTests
         var result = svc.TryMakeCookie("Chocolate Chip");
 
         Assert.That(result, Is.True);
-        Assert.That(inventory.Counts[CookieIngredient.Chocolate], Is.EqualTo(2));
-        Assert.That(inventory.Counts[CookieIngredient.Nuts],      Is.EqualTo(3));
+        Assert.That(inventory.GetCount(CookieIngredient.Chocolate), Is.EqualTo(2));
+        Assert.That(inventory.GetCount(CookieIngredient.Nuts),      Is.EqualTo(3));
     }
 
     [Test]
@@ -63,7 +63,7 @@ public class CookieServiceTests
         var result = svc.TryMakeCookie("Chocolate Fudge");
 
         Assert.That(result, Is.False);
-        Assert.That(inventory.Counts[CookieIngredient.Chocolate], Is.EqualTo(0));
+        Assert.That(inventory.GetCount(CookieIngredient.Chocolate), Is.EqualTo(0));
     }
 
     [Test]
@@ -75,11 +75,11 @@ public class CookieServiceTests
         var result = svc.TryMakeCookie("Chocolate Nuts Sugar Delight");
 
         Assert.That(result, Is.True);
-        Assert.That(inventory.Counts[CookieIngredient.Chocolate], Is.EqualTo(9));
-        Assert.That(inventory.Counts[CookieIngredient.Nuts],      Is.EqualTo(9));
-        Assert.That(inventory.Counts[CookieIngredient.Sugar],     Is.EqualTo(9));
-        Assert.That(inventory.Counts[CookieIngredient.PeanutButter], Is.EqualTo(10));
-        Assert.That(inventory.Counts[CookieIngredient.Butterscotch], Is.EqualTo(10));
+        Assert.That(inventory.GetCount(CookieIngredient.Chocolate), Is.EqualTo(9));
+        Assert.That(inventory.GetCount(CookieIngredient.Nuts),      Is.EqualTo(9));
+        Assert.That(inventory.GetCount(CookieIngredient.Sugar),     Is.EqualTo(9));
+        Assert.That(inventory.GetCount(CookieIngredient.PeanutButter), Is.EqualTo(10));
+        Assert.That(inventory.GetCount(CookieIngredient.Butterscotch), Is.EqualTo(10));
     }
 
     [Test]
@@ -98,8 +98,8 @@ public class CookieServiceTests
         var result = svc.TryMakeCookie("Chocolate Nuts Cookie");
 
         Assert.That(result, Is.False);
-        Assert.That(inventory.Counts[CookieIngredient.Chocolate], Is.EqualTo(5));
-        Assert.That(inventory.Counts[CookieIngredient.Nuts],      Is.EqualTo(0));
+        Assert.That(inventory.GetCount(CookieIngredient.Chocolate), Is.EqualTo(5));
+        Assert.That(inventory.GetCount(CookieIngredient.Nuts),      Is.EqualTo(0));
     }
 
     [Test]
@@ -111,8 +111,24 @@ public class CookieServiceTests
         var result = svc.TryMakeCookie("chocolate butterscotch bar");
 
         Assert.That(result, Is.True);
-        Assert.That(inventory.Counts[CookieIngredient.Chocolate],    Is.EqualTo(1));
-        Assert.That(inventory.Counts[CookieIngredient.Butterscotch], Is.EqualTo(1));
+        Assert.That(inventory.GetCount(CookieIngredient.Chocolate),    Is.EqualTo(1));
+        Assert.That(inventory.GetCount(CookieIngredient.Butterscotch), Is.EqualTo(1));
+    }
+
+    [Test]
+    public void TryMakeCookie_ButterCookieName_MatchesNoIngredients_ReturnsTrue_NothingDeducted()
+    {
+        var inventory = MakeInventory(each: 5);
+        var svc = new CookieService(inventory);
+
+        var result = svc.TryMakeCookie("Butter Cookie");
+
+        Assert.That(result, Is.True);
+        Assert.That(inventory.GetCount(CookieIngredient.Chocolate),    Is.EqualTo(5));
+        Assert.That(inventory.GetCount(CookieIngredient.Nuts),         Is.EqualTo(5));
+        Assert.That(inventory.GetCount(CookieIngredient.PeanutButter), Is.EqualTo(5));
+        Assert.That(inventory.GetCount(CookieIngredient.Butterscotch), Is.EqualTo(5));
+        Assert.That(inventory.GetCount(CookieIngredient.Sugar),        Is.EqualTo(5));
     }
 
     [Test]
@@ -124,6 +140,6 @@ public class CookieServiceTests
         var result = svc.TryMakeCookie("Chocolate Chocolate Chip");
 
         Assert.That(result, Is.True);
-        Assert.That(inventory.Counts[CookieIngredient.Chocolate], Is.EqualTo(2));
+        Assert.That(inventory.GetCount(CookieIngredient.Chocolate), Is.EqualTo(2));
     }
 }
