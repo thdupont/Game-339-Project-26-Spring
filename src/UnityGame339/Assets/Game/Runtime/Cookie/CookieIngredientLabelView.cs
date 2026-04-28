@@ -10,22 +10,23 @@ namespace Game.Runtime
         [SerializeField] private TMP_Text label;
         [SerializeField] private string ingredientName;
 
-        private CookieIngredient _ingredient;
-
-        private static CookieIngredientInventory Inventory
+        private CookieIngredient ParseCookieIngredientLabel()
         {
-            get { return ServiceResolver.Resolve<CookieIngredientInventory>(); }
+            return Enum.Parse<CookieIngredient>(ingredientName);
         }
 
         protected override void Subscribe()
         {
-            _ingredient = (CookieIngredient)Enum.Parse(typeof(CookieIngredient), ingredientName);
-            Inventory.Counts[_ingredient].ChangeEvent += OnChange;
+            var ingredient = ParseCookieIngredientLabel();
+            var inventory = ServiceResolver.Resolve<CookieIngredientInventory>();
+            inventory.Get(ingredient).ChangeEvent += OnChange;
         }
 
         protected override void Unsubscribe()
         {
-            Inventory.Counts[_ingredient].ChangeEvent -= OnChange;
+            var inventory = ServiceResolver.Resolve<CookieIngredientInventory>();
+            var ingredient = ParseCookieIngredientLabel();
+            inventory.Get(ingredient).ChangeEvent -= OnChange;
         }
 
         private void OnChange(int value)

@@ -25,12 +25,12 @@ namespace Game339.Shared.Cookie.Implementation
 
             foreach (var ingredient in required)
             {
-                if (!_inventory.Counts.TryGetValue(ingredient, out var obs) || obs.Value < 1)
+                if (_inventory.Get(ingredient).Value < 1)
                     return false;
             }
 
             foreach (var ingredient in required)
-                _inventory.Counts[ingredient].Value--;
+                _inventory.Get(ingredient).Value--;
 
             return true;
         }

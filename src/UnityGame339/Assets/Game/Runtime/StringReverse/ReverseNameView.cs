@@ -5,13 +5,20 @@ using UnityEngine.UI;
 
 namespace Game.Runtime
 {
-    public class ReverseNameView : MonoBehaviour
+    public class ReverseNameView : ObserverMonoBehaviour
     {
         [SerializeField] private Button button;
         [SerializeField] private TMP_Text nameLabel;
 
-        private void Start() => button.onClick.AddListener(OnClick);
-        private void OnDestroy() => button.onClick.RemoveListener(OnClick);
+        protected override void Subscribe()
+        {
+            button.onClick.AddListener(OnClick);
+        }
+
+        protected override void Unsubscribe()
+        {
+            button.onClick.RemoveListener(OnClick);
+        }
 
         private void OnClick()
         {

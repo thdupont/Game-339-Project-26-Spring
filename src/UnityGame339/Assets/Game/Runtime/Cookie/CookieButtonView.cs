@@ -5,17 +5,17 @@ using UnityEngine.UI;
 
 namespace Game.Runtime
 {
-    public class CookieButtonView : MonoBehaviour
+    public class CookieButtonView : ObserverMonoBehaviour
     {
         [SerializeField] private Button button;
         [SerializeField] private string cookieName;
 
-        private void Start()
+        protected override void Subscribe()
         {
             button.onClick.AddListener(OnClick);
         }
 
-        private void OnDestroy()
+        protected override void Unsubscribe()
         {
             button.onClick.RemoveListener(OnClick);
         }

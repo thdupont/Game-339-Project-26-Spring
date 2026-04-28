@@ -5,16 +5,18 @@ namespace Game339.Shared.Cookie.Models
 {
     public class CookieIngredientInventory
     {
-        public Dictionary<CookieIngredient, ObservableValue<int>> Counts { get; }
+        private Dictionary<CookieIngredient, ObservableValue<int>> _ingredientCounts { get; }
 
-        public CookieIngredientInventory(Dictionary<CookieIngredient, int> initialCounts)
+        public CookieIngredientInventory(Dictionary<CookieIngredient, int> initialIngredientCounts)
         {
-            Counts = new Dictionary<CookieIngredient, ObservableValue<int>>();
-            foreach (var kvp in initialCounts)
-                Counts[kvp.Key] = new ObservableValue<int>(kvp.Value);
+            _ingredientCounts = new Dictionary<CookieIngredient, ObservableValue<int>>();
+            foreach (var kvp in initialIngredientCounts)
+                _ingredientCounts[kvp.Key] = new ObservableValue<int>(kvp.Value);
         }
 
-        public int GetCount(CookieIngredient ingredient) =>
-            Counts.TryGetValue(ingredient, out var obs) ? obs.Value : 0;
+        public ObservableValue<int> Get(CookieIngredient ingredient)
+        {
+            return _ingredientCounts[ingredient];
+        }
     }
 }
