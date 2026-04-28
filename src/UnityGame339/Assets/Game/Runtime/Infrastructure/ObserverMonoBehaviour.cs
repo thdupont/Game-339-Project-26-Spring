@@ -3,6 +3,9 @@ using UnityEngine;
 
 namespace Game.Runtime
 {
+    // Acts as a lightweight ViewModel in MVVM — subclasses bind to model events and push
+    // updates to their serialized UI references. Unity's scene hierarchy is the View itself,
+    // so no separate View layer is needed.
     public abstract class ObserverMonoBehaviour : MonoBehaviour
     {
         private static IGameLog Log => ServiceResolver.Resolve<IGameLog>();
