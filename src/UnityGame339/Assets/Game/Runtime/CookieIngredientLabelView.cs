@@ -12,8 +12,10 @@ namespace Game.Runtime
 
         private CookieIngredient _ingredient;
 
-        private static CookieIngredientInventory Inventory =>
-            ServiceResolver.Resolve<CookieIngredientInventory>();
+        private static CookieIngredientInventory Inventory
+        {
+            get { return ServiceResolver.Resolve<CookieIngredientInventory>(); }
+        }
 
         protected override void Subscribe()
         {
@@ -26,6 +28,9 @@ namespace Game.Runtime
             Inventory.Counts[_ingredient].ChangeEvent -= OnChange;
         }
 
-        private void OnChange(int value) => label.text = ingredientName + ": " + value;
+        private void OnChange(int value)
+        {
+            label.text = ingredientName + ": " + value;
+        }
     }
 }
