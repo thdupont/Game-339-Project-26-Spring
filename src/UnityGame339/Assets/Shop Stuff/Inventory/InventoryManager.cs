@@ -11,10 +11,12 @@ public class InventoryManager : MonoBehaviour
 
     private bool isMenuActivated;
     private ShopManager shopManager;
+    private AudioManager audioManager;
 
     void Start()
     {
         shopManager = FindObjectOfType<ShopManager>();
+        audioManager = FindObjectOfType<AudioManager>();
         
         // tells you where to find the debug log file
         LogToFile("Log file location: " + Application.persistentDataPath);
@@ -58,6 +60,8 @@ public class InventoryManager : MonoBehaviour
                 {
                     leftOverItems = AddItem(itemName, leftOverItems, itemSprite, price, itemDescription, itemID);
                 }
+                
+                audioManager.PlayAddItemSFX();
                 return leftOverItems;
             }
         }
@@ -72,6 +76,8 @@ public class InventoryManager : MonoBehaviour
                 { 
                     leftOverItems = AddItem(itemName, leftOverItems, itemSprite, price, itemDescription, itemID);
                 } 
+                
+                audioManager.PlayAddItemSFX();
                 return leftOverItems;
             }
         }
@@ -81,16 +87,16 @@ public class InventoryManager : MonoBehaviour
 
     public void UseItem(string itemName,  int itemID)
     {
-        LogToFile("UseItem called " + itemName + ", itemID: " + itemID);
-        
+        //LogToFile("UseItem called " + itemName + ", itemID: " + itemID);
         for (int i = 0; i < itemSOs.Length; i++)
         {
-            LogToFile("Checking itemSOs " + i + ". itemID: " + itemSOs[i].itemID + " against itemID: " + itemID);
+            //LogToFile("Checking itemSOs " + i + ". itemID: " + itemSOs[i].itemID + " against itemID: " + itemID);
             if (itemSOs[i].itemID == itemID)
             {
-                LogToFile("Item " + itemSOs[i].itemName + " used");
+                //LogToFile("Item " + itemSOs[i].itemName + " used");
                 itemSOs[i].UseItem();
                 shopManager.DecreaseItemQuantity(itemID);
+                audioManager.PlayUseItemSFX();
             }
         }
     }
