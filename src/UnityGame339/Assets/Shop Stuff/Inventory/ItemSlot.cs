@@ -6,6 +6,7 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
 {
     //===ITEM DATA===
     public string itemName;
+    public int itemID;
     public int quantity;
     public Sprite itemSprite;
     public int price;
@@ -39,7 +40,7 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
     }
     
     public int AddItem(string itemName, int quantity, Sprite itemsprite, 
-        int price, string itemDescription)
+        int price, string itemDescription, int itemID)
     {
         // check to see if slot is full already
         if (isFull)
@@ -49,6 +50,7 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
         
         // update name
         this.itemName = itemName;
+        this.itemID = itemID;
         
         // update image
         this.itemSprite = itemsprite;
@@ -69,8 +71,8 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
             quantityText.enabled = true;
             this.isFull = true;
             
-             // return leftovers
-             int extraItems = this.quantity - maxNumberOfItems;
+            // return leftovers
+            int extraItems = this.quantity - maxNumberOfItems;
             this.quantity = maxNumberOfItems; 
             return extraItems;
         }
@@ -88,18 +90,14 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
         {
             OnLeftClick();
         }
-        
-        if (eventData.button == PointerEventData.InputButton.Right)
-        {
-            OnRightClick();
-        }                                                            
     }
 
     public void OnLeftClick()
     {
         if (isItemSelected)
         {
-            inventoryManager.UseItem(itemName);
+            Debug.Log("OnLeftClick - itemName: " + itemName + ", itemID: " + itemID);
+            inventoryManager.UseItem(itemName, itemID);
             this.quantity -= 1;
             quantityText.text = this.quantity.ToString();
             
@@ -124,11 +122,6 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
                 itemDescriptionImage.sprite = emptySprite;
             }
         }
-        
-    }
-
-    public void OnRightClick()
-    {
         
     }
     

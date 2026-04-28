@@ -557,6 +557,7 @@ MonoBehaviour:
   NameText: {fileID: 1832564160}
   ShopManagerObj: {fileID: 1649638894}
   itemName: Bait
+  itemID: 1
   quantity: 0
   price: 8
   sprite: {fileID: -2508321389420471057, guid: 0c2b0ea2f47a94135977e0fc1453ca2b, type: 3}
@@ -1721,7 +1722,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.31, y: 0.31}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1761,6 +1762,7 @@ MonoBehaviour:
   NameText: {fileID: 0}
   ShopManagerObj: {fileID: 0}
   itemName: Bait
+  itemID: 0
   quantity: 1
   price: 0
   sprite: {fileID: -2508321389420471057, guid: 0c2b0ea2f47a94135977e0fc1453ca2b, type: 3}
@@ -2471,7 +2473,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1, y: 0.9375}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -2616,6 +2618,8 @@ MonoBehaviour:
   - {fileID: 1297955964}
   itemSOs:
   - {fileID: 11400000, guid: 9ea20c78c9c7442b49a38bb8d95e92a9, type: 2}
+  - {fileID: 11400000, guid: 5bad0173be5a0475cbb3216d593adaae, type: 2}
+  - {fileID: 11400000, guid: 9c17e026d6393401ea3e0df3ff43da53, type: 2}
 --- !u!114 &696545514
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3215,6 +3219,7 @@ MonoBehaviour:
   NameText: {fileID: 1992003791}
   ShopManagerObj: {fileID: 1649638894}
   itemName: Fishing Rod+
+  itemID: 2
   quantity: 0
   price: 50
   sprite: {fileID: 367195287116461755, guid: fdccd55c21fe94355b65a43100692023, type: 3}
@@ -4098,7 +4103,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.22, y: 0.12}
+  m_Size: {x: 0.52, y: 0.55}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -4507,7 +4512,8 @@ MonoBehaviour:
   QuantityText: {fileID: 1881770640}
   NameText: {fileID: 861083200}
   ShopManagerObj: {fileID: 1649638894}
-  itemName: Skill Token
+  itemName: Token
+  itemID: 3
   quantity: 0
   price: 20
   sprite: {fileID: 6937817954938267909, guid: 38815c114522507609bd17db1304b91d, type: 3}
@@ -4859,6 +4865,10 @@ MonoBehaviour:
   coins: 100
   CoinsText: {fileID: 1966525977}
   FadeAwayText: {fileID: 910798281}
+  shopItemButtons:
+  - {fileID: 99797026}
+  - {fileID: 900616253}
+  - {fileID: 1401124001}
 --- !u!1001 &1671423225
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5730,7 +5740,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.31, y: 0.31}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1

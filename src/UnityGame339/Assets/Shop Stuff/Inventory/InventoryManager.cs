@@ -1,5 +1,7 @@
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class InventoryManager : MonoBehaviour
 {
@@ -8,42 +10,53 @@ public class InventoryManager : MonoBehaviour
     public ItemSO[] itemSOs;
 
     private bool isMenuActivated;
+    private ShopManager shopManager;
+
+    void Start()
+    {
+        shopManager = FindObjectOfType<ShopManager>();
+        
+        // tells you where to find the debug log file
+        LogToFile("Log file location: " + Application.persistentDataPath);
+    }
     
     void Update()
     {
         // Open Inventory with "Q"
-        if (Input.GetKeyDown(KeyCode.Q) && !isMenuActivated)
+        if (Keyboard.current.qKey.wasPressedThisFrame && !isMenuActivated)
         {
-            Debug.Log("Pressed Q");
+            LogToFile("Pressed Q");
             Time.timeScale = 0;
             InventoryMenu.SetActive(true);
             isMenuActivated = true;
+            LogToFile("Inventory opened");
         }
         
-        else if (Input.GetKeyDown(KeyCode.Q) && isMenuActivated)
+        // close inventory
+        else if (Keyboard.current.qKey.wasPressedThisFrame && isMenuActivated)
         {
             Time.timeScale = 1;
             InventoryMenu.SetActive(false);
             isMenuActivated = false;
+            LogToFile("Inventory closed");
         }
     }
 
     public int AddItem(string itemName, int quantity, Sprite itemSprite, 
-        int price, string itemDescription)
+        int price, string itemDescription, int itemID)
     {
-        Debug.Log("itemName = " + itemName + " quantity = " + quantity + " itemSprite = " + itemSprite + 
-                  " price = " + price + " itemDescription = " + itemDescription);
+        LogToFile("itemName = " + itemName + ", quantity = " + quantity + ", price = " + price);
         
         // stack into existing slot with same item
         for (int i = 0; i < itemSlot.Length; i++)
         {
             if (itemSlot[i].isFull == false && itemSlot[i].itemName == itemName)
             {
-                int leftOverItems = itemSlot[i].AddItem(itemName, quantity, itemSprite, price, itemDescription);
+                int leftOverItems = itemSlot[i].AddItem(itemName, quantity, itemSprite, price, itemDescription, itemID);
 
                 if (leftOverItems > 0)
                 {
-                    leftOverItems = AddItem(itemName, leftOverItems, itemSprite, price, itemDescription);
+                    leftOverItems = AddItem(itemName, leftOverItems, itemSprite, price, itemDescription, itemID);
                 }
                 return leftOverItems;
             }
@@ -53,27 +66,31 @@ public class InventoryManager : MonoBehaviour
         {
             if (itemSlot[i].quantity == 0)
             {
-                int leftOverItems = itemSlot[i].AddItem(itemName, quantity, itemSprite, price, itemDescription);
+                int leftOverItems = itemSlot[i].AddItem(itemName, quantity, itemSprite, price, itemDescription, itemID);
                 
                 if (leftOverItems > 0) 
                 { 
-                    leftOverItems = AddItem(itemName, leftOverItems, itemSprite, price, itemDescription);
+                    leftOverItems = AddItem(itemName, leftOverItems, itemSprite, price, itemDescription, itemID);
                 } 
                 return leftOverItems;
             }
-            
         }
         
         return quantity;
     }
 
-    public void UseItem(string itemName)
+    public void UseItem(string itemName,  int itemID)
     {
+        LogToFile("UseItem called " + itemName + ", itemID: " + itemID);
+        
         for (int i = 0; i < itemSOs.Length; i++)
         {
-            if (itemSOs[i].itemName == itemName)
+            LogToFile("Checking itemSOs " + i + ". itemID: " + itemSOs[i].itemID + " against itemID: " + itemID);
+            if (itemSOs[i].itemID == itemID)
             {
+                LogToFile("Item " + itemSOs[i].itemName + " used");
                 itemSOs[i].UseItem();
+                shopManager.DecreaseItemQuantity(itemID);
             }
         }
     }
@@ -85,5 +102,13 @@ public class InventoryManager : MonoBehaviour
             itemSlot[i].selectedShader.SetActive(false);
             itemSlot[i].isItemSelected = false;
         }
+    }
+    
+    /// ---DEBUG FILE---
+    void LogToFile(string message)
+    {
+        string path = Application.persistentDataPath + "/gamelog.txt";
+        File.AppendAllText(path, System.DateTime.Now + ": " + message + "\n");
+        Debug.Log(message);
     }
 }

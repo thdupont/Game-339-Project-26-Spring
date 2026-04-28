@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: FishingRod+
   m_EditorClassIdentifier: Assembly-CSharp::ItemSO
   itemName: Fishing Rod+
-  statToChange: 3
+  statToChange: 1
   amountToChangeStat: 1
+  itemID: 2

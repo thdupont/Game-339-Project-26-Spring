@@ -15,6 +15,9 @@ public class Item : MonoBehaviour
     private string itemName;
     
     [SerializeField]
+    private int itemID;
+    
+    [SerializeField]
     private int quantity;
     
     [SerializeField]
@@ -42,6 +45,6 @@ public class Item : MonoBehaviour
 
     public void SendToInventory(int currentQuantity)
     {
-        inventoryManager.AddItem(itemName, currentQuantity, sprite, price, itemDescription);
+        inventoryManager.AddItem(itemName, currentQuantity, sprite, price, itemDescription, ItemID);
     }
 }

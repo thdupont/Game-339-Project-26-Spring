@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: SkillToken
   m_EditorClassIdentifier: Assembly-CSharp::ItemSO
   itemName: 'Skill Token '
-  statToChange: 5
+  statToChange: 1
   amountToChangeStat: 1
+  itemID: 3
