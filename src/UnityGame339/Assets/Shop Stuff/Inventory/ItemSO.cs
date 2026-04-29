@@ -10,32 +10,34 @@ public class ItemSO : ScriptableObject
     
     public void UseItem()
     {
-        if (statToChange == StatToChange.fishing)
+        if (statToChange == StatToChange.None)
         {
-            // for bait, this would allow the player to participate in the fishing minigame
-            // the player needs bait to fish basically
-            Debug.Log("You changed: fishing");
+            // For the Fish Tower and Tier
         }
-
-        if (statToChange == StatToChange.attack)
+        
+        if (statToChange == StatToChange.FishBreeding)
         {
-            //Debug.Log("You used the fishing rod+. Nothing happened.");
+            // Speeds up fish breeding mechanic
         }
-
-        if (statToChange == StatToChange.speed)
+        
+        if (statToChange == StatToChange.FishAging)
         {
-            // this is a place holder for the skill token, I'll make multiple for each stat
-            //Debug.Log("You used the skill token. Nothing happened.");
+            // Speeds up fish aging mechanic
         }
+        
+        if (statToChange == StatToChange.FishFood)
+        {
+            // If 2 fish have been given food, they will breed
+            // Once they are done breeding, they will lose the food they were given
+        }
+        
     }
     public enum StatToChange
     {
-        none,
-        fishing,
-        health, // add check to see if health is maxed before using item
-        attack,
-        defense,
-        speed
+        None,
+        FishBreeding,
+        FishAging,
+        FishFood
     };
     
     

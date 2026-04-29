@@ -2,25 +2,22 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-    public AudioSource addItemSFX;
-    public AudioSource useItemSFX;
-    public AudioSource shopBGMusic;
+    public AudioSource addItemSfx;
+    public AudioSource useItemSfx;
+    public AudioSource shopBgMusic;
     
     void Start()
     {
-        shopBGMusic = GetComponent<AudioSource>();
-        shopBGMusic.Play();
+        shopBgMusic.Play();
     }
 
-    public void PlayAddItemSFX()
+    public void PlayAddItemSfx()
     {
-        addItemSFX = GetComponent<AudioSource>();
-        addItemSFX.Play();
+        addItemSfx.Play();
     }
     
-    public void PlayUseItemSFX()
+    public void PlayUseItemSfx()
     {
-      useItemSFX = GetComponent<AudioSource>();
-      useItemSFX.Play();
+      useItemSfx.Play();
     }
 }

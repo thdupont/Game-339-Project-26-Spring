@@ -96,7 +96,7 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
     {
         if (isItemSelected)
         {
-            Debug.Log("OnLeftClick - itemName: " + itemName + ", itemID: " + itemID);
+            //Debug.Log("OnLeftClick - itemName: " + itemName + ", itemID: " + itemID);
             inventoryManager.UseItem(itemName, itemID);
             this.quantity -= 1;
             quantityText.text = this.quantity.ToString();

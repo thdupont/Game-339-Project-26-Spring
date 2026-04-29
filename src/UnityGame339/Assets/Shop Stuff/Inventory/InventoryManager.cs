@@ -27,11 +27,11 @@ public class InventoryManager : MonoBehaviour
         // Open Inventory with "Q"
         if (Keyboard.current.qKey.wasPressedThisFrame && !isMenuActivated)
         {
-            LogToFile("Pressed Q");
+            //LogToFile("Pressed Q");
             Time.timeScale = 0;
             InventoryMenu.SetActive(true);
             isMenuActivated = true;
-            LogToFile("Inventory opened");
+            //LogToFile("Inventory opened");
         }
         
         // close inventory
@@ -40,14 +40,14 @@ public class InventoryManager : MonoBehaviour
             Time.timeScale = 1;
             InventoryMenu.SetActive(false);
             isMenuActivated = false;
-            LogToFile("Inventory closed");
+            //LogToFile("Inventory closed");
         }
     }
 
     public int AddItem(string itemName, int quantity, Sprite itemSprite, 
         int price, string itemDescription, int itemID)
     {
-        LogToFile("itemName = " + itemName + ", quantity = " + quantity + ", price = " + price);
+        //LogToFile("itemName = " + itemName + ", quantity = " + quantity + ", price = " + price);
         
         // stack into existing slot with same item
         for (int i = 0; i < itemSlot.Length; i++)
@@ -61,7 +61,8 @@ public class InventoryManager : MonoBehaviour
                     leftOverItems = AddItem(itemName, leftOverItems, itemSprite, price, itemDescription, itemID);
                 }
                 
-                audioManager.PlayAddItemSFX();
+                audioManager.PlayAddItemSfx();
+                LogToFile("Play AddItemSfx");
                 return leftOverItems;
             }
         }
@@ -77,7 +78,8 @@ public class InventoryManager : MonoBehaviour
                     leftOverItems = AddItem(itemName, leftOverItems, itemSprite, price, itemDescription, itemID);
                 } 
                 
-                audioManager.PlayAddItemSFX();
+                audioManager.PlayAddItemSfx();
+                LogToFile("Play AddItemSfx");
                 return leftOverItems;
             }
         }
@@ -96,7 +98,8 @@ public class InventoryManager : MonoBehaviour
                 //LogToFile("Item " + itemSOs[i].itemName + " used");
                 itemSOs[i].UseItem();
                 shopManager.DecreaseItemQuantity(itemID);
-                audioManager.PlayUseItemSFX();
+                audioManager.PlayUseItemSfx();
+                LogToFile("Play UseItemSfx");
             }
         }
     }

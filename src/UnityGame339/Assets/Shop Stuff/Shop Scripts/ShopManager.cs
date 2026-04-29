@@ -6,18 +6,18 @@ using UnityEngine.EventSystems;
 public class ShopManager : MonoBehaviour
 {
     public int[,] shopItems = new int[4, 4]; // aray of shop items - [columns, rows]
-    public float coins; // currency 
+    public int coins; // currency 
     public Text CoinsText;
     public FadeAwayText FadeAwayText;
     public Item[] shopItemButtons;
     
     private InventoryManager inventoryManager;
+    private MoneyManager moneyManager;
     
     void Start()
     {
         inventoryManager = FindObjectOfType<InventoryManager>();
-        
-        CoinsText.text = "$" + coins.ToString();
+        moneyManager = FindObjectOfType<MoneyManager>();
         
         // IDs
         shopItems[1, 1] = 1;
@@ -49,6 +49,7 @@ public class ShopManager : MonoBehaviour
             // subtract price from our coins
             coins -= shopItems[2, itemID];
             
+            
             // increase item quantity
             shopItems[3, itemID] += 1; 
             
@@ -68,17 +69,16 @@ public class ShopManager : MonoBehaviour
     
     public void DecreaseItemQuantity(int itemID)
     {
-        Debug.Log("DecreaseItemQuantity called with itemID: " + itemID);
-        Debug.Log("Current shopItems[3, " + itemID + "] = " + shopItems[3, itemID]);
+        //Debug.Log("DecreaseItemQuantity called with itemID: " + itemID);
+        //Debug.Log("Current shopItems[3, " + itemID + "] = " + shopItems[3, itemID]);
         
         if (shopItems[3, itemID] > 0)
         {
             shopItems[3, itemID] -= 1;
-            Debug.Log("Decreased to: " + shopItems[3, itemID]);
         }
         else
         {
-            Debug.Log("Quantity was already 0, not decreasing.");
+            //Debug.Log("Quantity was already 0, not decreasing.");
         }
     }
 
@@ -93,7 +93,6 @@ public class ShopManager : MonoBehaviour
 
         if (buttonObject == null)
         {
-            Debug.Log("No button selected.");
             return null; 
         }
     
@@ -101,7 +100,6 @@ public class ShopManager : MonoBehaviour
 
         if (info == null)
         {
-            Debug.Log("No item component found on button.");
             return null; 
         }
 
