@@ -4,22 +4,23 @@ using UnityEngine.UI;
 
 namespace Game.Runtime
 {
-    public class CharacterView : ObserverMonoBehaviour
+    public class OldCharacterView : ObserverMonoBehaviour
     {
+
         [SerializeField] private TMP_Text nameText;
         [SerializeField] private TMP_Text hpText;
         [SerializeField] private Button attackButton;
-        
+
         [SerializeField] public string characterId;
         [SerializeField] public string targetId;
-        
+
         protected override void Subscribe()
         {
             var characterManager = ServiceResolver.Resolve<CharacterManager>();
             var character = characterManager.Get(characterId);
-            character.Hp.ChangeEvent += HpOnChangeEvent;
+            character.HP.ChangeEvent += HpOnChangeEvent;
             character.DisplayName.ChangeEvent += DisplayNameOnChangeEvent;
-            
+
             attackButton.onClick.AddListener(OnClick);
         }
 
@@ -27,9 +28,9 @@ namespace Game.Runtime
         {
             var characterManager = ServiceResolver.Resolve<CharacterManager>();
             var character = characterManager.Get(characterId);
-            character.Hp.ChangeEvent -= HpOnChangeEvent;
+            character.HP.ChangeEvent -= HpOnChangeEvent;
             character.DisplayName.ChangeEvent -= DisplayNameOnChangeEvent;
-            
+
             attackButton.onClick.RemoveListener(OnClick);
         }
 
@@ -48,9 +49,9 @@ namespace Game.Runtime
             var characterManager = ServiceResolver.Resolve<CharacterManager>();
             var character = characterManager.Get(characterId);
             var target = characterManager.Get(targetId);
-            
+
             var attackService = ServiceResolver.Resolve<AttackService>();
-            attackService.Attack(character, target);
+            // attackService.Attack(character, target);
         }
     }
 }

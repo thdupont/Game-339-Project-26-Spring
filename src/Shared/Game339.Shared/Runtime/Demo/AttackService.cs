@@ -4,18 +4,29 @@ namespace Game.Runtime
 {
     public class AttackService
     {
-        private readonly IGameLog _logger;
-
-        public AttackService(IGameLog logger)
+        /// <summary>
+        /// Attacker takes away Target health 
+        /// </summary>
+        /// <param name="attacker">attacking</param>
+        /// <param name="target">getting attack</param>
+        /// <returns>TRUE if target is dead</returns>
+        public bool Attack(Character attacker, Character target)
         {
-            _logger = logger;
+            int dmg = attacker.Attack.Value - target.Defense.Value;
+            int remainingHealth = target.HP.Value - dmg;
+            if (remainingHealth <= 0)
+            {
+                target.HP.Value = 0;
+                return true;
+            }
+
+            target.HP.Value = remainingHealth;
+            return false;
         }
 
-        public void Attack(Character attacker, Character target)
+        public void Heal(Character healer)
         {
-            var dmg = attacker.Attack.Value - target.Defense.Value;
-            target.Hp.Value -= dmg;
-            _logger.Info($"{attacker.Id} does {dmg} dmg to {target.Id}");
+            healer.HP.Value += 2;
         }
     }
 }

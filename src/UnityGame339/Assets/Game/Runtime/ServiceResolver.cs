@@ -3,9 +3,7 @@ using Game339.Shared;
 using Game339.Shared.DependencyInjection;
 using Game339.Shared.DependencyInjection.Implementation;
 using Game339.Shared.Diagnostics;
-using Game339.Shared.Models;
 using Game339.Shared.Services;
-using Game339.Shared.Services.Implementation;
 
 namespace Game.Runtime
 {
@@ -13,37 +11,53 @@ namespace Game.Runtime
     {
         public static T Resolve<T>() => Container.Value.Resolve<T>();
 
-        private static readonly Lazy<IMiniContainer> Container = new (() =>
+        private static readonly Lazy<IMiniContainer> Container = new Lazy<IMiniContainer>(() =>
         {
-            var container = new MiniContainer();
+            MiniContainer container = new MiniContainer();
 
-            var logger = new UnityGameLogger();
+            UnityGameLogger logger = new UnityGameLogger();
             container.RegisterSingletonInstance<IGameLog>(logger);
-
-            var gameState = new GameState();
-            gameState.GoodGuy.Name.Value = "Good Sandy";
-            gameState.GoodGuy.Health.Value = 10;
-            gameState.GoodGuy.Damage.Value = 1;
-            gameState.BadGuy.Name.Value = "Bad Sandy";
-            gameState.BadGuy.Health.Value = 10;
-            gameState.BadGuy.Damage.Value = 1;
-            container.RegisterSingletonInstance(gameState);
-
-            var damageService = new DamageService(logger);
+            
+            DamageService damageService = new DamageService();
             container.RegisterSingletonInstance<IDamageService>(damageService);
             
-            var stringService = new StringService(logger);
-            container.RegisterSingletonInstance<IStringService>(stringService);
-
-            var attackService = new AttackService(logger);
+            AttackService attackService = new AttackService();
             container.RegisterSingletonInstance(attackService);
 
-            var characterManager = new CharacterManager(logger);
-            characterManager.Add(new Character("sandy", "Sandy, the Corgi", 10, 3, 1));
-            characterManager.Add(new Character("squirrel", "Evil Squirrel", 5, 2, 1));
-            container.RegisterSingletonInstance(characterManager);
+            TurnEngine turnEngine = new TurnEngine();
+            container.RegisterSingletonInstance(turnEngine);
             
+            var characterManager = new CharacterManager();
+            characterManager.Add(new Character("player", "Player", 10, 3, 1));
+            characterManager.Add(new Character("enemy", "Enemy", 10, 2, 1));
+            container.RegisterSingletonInstance(characterManager);
+
             return container;
         });
     }
 }
+
+/*
+ * var gameState = new GameState();
+   gameState.GoodGuy.Name.Value = "Good Sandy";
+   gameState.GoodGuy.Health.Value = 10;
+   gameState.GoodGuy.Damage.Value = 1;
+   gameState.BadGuy.Name.Value = "Bad Sandy";
+   gameState.BadGuy.Health.Value = 10;
+   gameState.BadGuy.Damage.Value = 1;
+   container.RegisterSingletonInstance(gameState);
+
+   var damageService = new DamageService(logger);
+   container.RegisterSingletonInstance<IDamageService>(damageService);
+   
+   var stringService = new StringService(logger);
+   container.RegisterSingletonInstance<IStringService>(stringService);
+
+   var attackService = new AttackService(logger);
+   container.RegisterSingletonInstance(attackService);
+
+   var characterManager = new CharacterManager(logger);
+   characterManager.Add(new Character("sandy", "Sandy, the Corgi", 10, 3, 1));
+   characterManager.Add(new Character("squirrel", "Evil Squirrel", 5, 2, 1));
+   container.RegisterSingletonInstance(characterManager);
+ */
