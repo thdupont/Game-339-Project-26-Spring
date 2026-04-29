@@ -715,7 +715,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a02a1832473fe244797dfc34a9ca6221, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FishFarm
-  capacity: 6
+  capacity: 2
   fishDisplay: {fileID: 1523154565}
   fishIconPrefab: {fileID: 2847523120939565390, guid: 613b209fb1716c74ba75e6fdbf2c7e45, type: 3}
 --- !u!4 &2024840092
