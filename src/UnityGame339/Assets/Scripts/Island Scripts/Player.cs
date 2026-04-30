@@ -16,6 +16,7 @@ public class Player : MonoBehaviour
     
     public void Interact()
     {
+        print("Interacted");
         if (_currentZone != null)
             SceneManager.LoadScene(_currentZone.SceneName);
     }
