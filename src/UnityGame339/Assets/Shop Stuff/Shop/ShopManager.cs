@@ -6,8 +6,6 @@ using UnityEngine.EventSystems;
 public class ShopManager : MonoBehaviour
 {
     public int[,] shopItems = new int[4, 4]; // aray of shop items - [columns, rows]
-    public int coins; // currency 
-    public Text CoinsText;
     public FadeAwayText FadeAwayText;
     public Item[] shopItemButtons;
     
@@ -42,19 +40,16 @@ public class ShopManager : MonoBehaviour
         if (info == null) return;
 
         int itemID = info.ItemID;
+        int itemPrice = shopItems[2, itemID];
         
         // Check if we have enough coins to purchase the item:
-        if (coins >= shopItems[2, itemID])
+        if (moneyManager.CanBuy(itemPrice))
         {
             // subtract price from our coins
-            coins -= shopItems[2, itemID];
-            
+            moneyManager.Buy(itemPrice);
             
             // increase item quantity
             shopItems[3, itemID] += 1; 
-            
-            // update coins after purchase
-            CoinsText.text = "$" + coins.ToString(); 
             
             // update item quantity
             info.QuantityText.text = shopItems[3, itemID].ToString();
@@ -85,6 +80,12 @@ public class ShopManager : MonoBehaviour
     public void CantBuy()
     {
         FadeAwayText.MakeTextVisible();
+    }
+    
+    // ---SELL---
+    public void Sell()
+    {
+        
     }
 
     public Item GetButton()

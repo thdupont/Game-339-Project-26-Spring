@@ -112,6 +112,25 @@ public class InventoryManager : MonoBehaviour
             itemSlot[i].isItemSelected = false;
         }
     }
+
+    public void RemoveItem(string itemName, int itemID)
+    {
+        for (int i = 0; i < itemSlot.Length; i++)
+        {
+            if (itemSlot[i].itemID == itemID && itemSlot[i].quantity > 0)
+            {
+                itemSlot[i].quantity -= 1;
+                itemSlot[i].UpdateQuantityText(itemSlot[i].quantity);
+
+                if (itemSlot[i].quantity <= 0)
+                {
+                    itemSlot[i].EmptySlot();
+                }
+
+                return;
+            }
+        }
+    }
     
     /// ---DEBUG FILE---
     void LogToFile(string message)

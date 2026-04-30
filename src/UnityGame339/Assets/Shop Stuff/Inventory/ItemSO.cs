@@ -6,7 +6,8 @@ public class ItemSO : ScriptableObject
     public string itemName;
     public StatToChange statToChange;
     public int amountToChangeStat;
-    public int itemID; 
+    public int itemID;
+    public bool isSellable;
     
     public void UseItem()
     {

@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fca9b8536243f4345885cc28c4c3f3c8, type: 3}
   m_Name: SkillToken
   m_EditorClassIdentifier: Assembly-CSharp::ItemSO
-  itemName: 'Skill Token '
+  itemName: 'Fish Upgrade '
   statToChange: 1
   amountToChangeStat: 1
   itemID: 3
+  isSellable: 1

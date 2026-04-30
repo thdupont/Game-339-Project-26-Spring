@@ -5,10 +5,13 @@ public class MoneyManager : MonoBehaviour
 {
     public int coins; 
     public Text CoinsText;
+
+    private bool isBuy;
     
     void Start()
     {
-        coins = 0;
+        isBuy = false;
+        coins = 80;
         CoinsText.text = "$" + coins.ToString();
     }
     
@@ -18,21 +21,15 @@ public class MoneyManager : MonoBehaviour
         CoinsText.text = "$" + coins.ToString();
     }
 
-    public bool CanBuy(int coins, int itemPrice)
+    public bool CanBuy(int itemPrice)
     {
-        if (coins >= itemPrice)
-            return true;
-        else if (coins < itemPrice)
-            return false;
-        
-        return false;
+        return coins >= itemPrice;
     }
 
-    public int Buy (int coins, int itemPrice)
+    public void Buy (int itemPrice)
     {
         // deduct item price from player's coins
         coins = coins - itemPrice;
-        return coins;
     }
 
     public void ShowCoins()
