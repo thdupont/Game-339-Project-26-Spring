@@ -258,6 +258,8 @@ MonoBehaviour:
   nameText: {fileID: 6571807080591456735}
   hpText: {fileID: 7049914878073109683}
   attackButton: {fileID: 8909555042275408368}
+  characterId: 
+  targetId: 
 --- !u!1 &5567528368342910826
 GameObject:
   m_ObjectHideFlags: 0
