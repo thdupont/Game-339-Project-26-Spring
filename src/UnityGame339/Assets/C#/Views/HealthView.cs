@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class HealthView : MonoBehaviour
 {
-    private const int VALUE_OFFSET = 10;
+    private const int VALUE_OFFSET = 1;
     
     [SerializeField] private TextMeshProUGUI _currentHealthText;
     [SerializeField] private TextMeshProUGUI _maxHealthText;
@@ -17,6 +17,9 @@ public class HealthView : MonoBehaviour
         _character = character;
         _character.HP.ChangeEvent += OnHealthChange;
         _character.MaxHP.ChangeEvent += OnMaxHealthChange;
+        
+        OnMaxHealthChange(_character.MaxHP.Value);
+        OnHealthChange(_character.HP.Value);
     }
 
     public void Unsubscribe()

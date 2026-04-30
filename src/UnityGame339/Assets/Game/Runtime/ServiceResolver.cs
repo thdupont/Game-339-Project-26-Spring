@@ -28,8 +28,8 @@ namespace Game.Runtime
             container.RegisterSingletonInstance(turnEngine);
             
             var characterManager = new CharacterManager();
-            characterManager.Add(new Character("player", "Player", 10, 3, 1));
-            characterManager.Add(new Character("enemy", "Enemy", 10, 2, 1));
+            characterManager.Add(new Character("player", "Player", 100, 10, 0));
+            characterManager.Add(new Character("enemy", "Enemy", 60, 10, 0));
             container.RegisterSingletonInstance(characterManager);
 
             return container;

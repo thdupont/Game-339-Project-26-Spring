@@ -13,6 +13,7 @@ namespace Game.Runtime
         public bool Attack(Character attacker, Character target)
         {
             int dmg = attacker.Attack.Value - target.Defense.Value;
+            if (dmg < 0) dmg = 0;
             int remainingHealth = target.HP.Value - dmg;
             if (remainingHealth <= 0)
             {
@@ -26,7 +27,14 @@ namespace Game.Runtime
 
         public void Heal(Character healer)
         {
-            healer.HP.Value += 2;
+            int healed = healer.HP.Value + 15;
+            if (healed > healer.MaxHP.Value) healed = healer.MaxHP.Value;
+            healer.HP.Value = healed;
+        }
+
+        public void HealToFull(Character character)
+        {
+            character.HP.Value = character.MaxHP.Value;
         }
     }
 }

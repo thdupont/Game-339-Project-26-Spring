@@ -11,6 +11,7 @@ public class Character
         Attack =  new ObservableValue<int>(attack);
         Defense = new ObservableValue<int>(defense);
 
+        _defaultMaxHP = hp;
         _defaultHP = hp;
         _defaultAttack = attack;
         _defaultDefense = defense;
@@ -23,12 +24,14 @@ public class Character
     public ObservableValue<int> Attack { get; }
     public ObservableValue<int> Defense { get; }
 
+    private int _defaultMaxHP;
     private int _defaultHP;
     private int _defaultAttack;
     private int _defaultDefense;
 
     public void ResetValues()
     {
+        MaxHP.Value = _defaultMaxHP;
         HP.Value = _defaultHP;
         Attack.Value = _defaultAttack;
         Defense.Value = _defaultDefense;
