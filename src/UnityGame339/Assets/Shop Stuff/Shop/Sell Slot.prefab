@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 7160625640388807978}
   - component: {fileID: 4450733630907334216}
   - component: {fileID: 1901889964709168163}
-  - component: {fileID: 4067611857080621526}
+  - component: {fileID: 8444915237079360280}
   m_Layer: 5
-  m_Name: Item Slot
+  m_Name: Sell Slot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -62,15 +62,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.40392157}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 0}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -79,7 +79,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &4067611857080621526
+--- !u!114 &8444915237079360280
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -88,24 +88,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 12856736861724607}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68c14df09bf3d459f979c7b8a138cb77, type: 3}
+  m_Script: {fileID: 11500000, guid: 90195bbfb964f4943a48c487903a7835, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ItemSlot
+  m_EditorClassIdentifier: Assembly-CSharp::SellSlots
   itemName: 
+  itemID: 0
   quantity: 0
   itemSprite: {fileID: 0}
   price: 0
-  itemDescription: 
-  isFull: 0
-  emptySprite: {fileID: 21300000, guid: 176f4bc89d46d4bc985a2ef6ad3ba3ed, type: 3}
-  maxNumberOfItems: 10
+  isSellable: 0
+  selectedShader: {fileID: 7916078269705105786}
+  isSlotSelected: 0
   quantityText: {fileID: 5287390707184064261}
   itemImage: {fileID: 6157389925555088785}
-  itemDescriptionImage: {fileID: 0}
-  itemDescriptionText: {fileID: 0}
-  itemDescriptionNameText: {fileID: 0}
-  selectedShader: {fileID: 7916078269705105786}
-  isItemSelected: 0
+  emptySprite: {fileID: 0}
+  itemNameText: {fileID: 0}
+  itemPriceText: {fileID: 0}
+  sellStatusText: {fileID: 0}
 --- !u!1 &2014069983546009122
 GameObject:
   m_ObjectHideFlags: 0

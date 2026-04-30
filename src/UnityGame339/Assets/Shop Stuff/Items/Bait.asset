@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fca9b8536243f4345885cc28c4c3f3c8, type: 3}
   m_Name: Bait
   m_EditorClassIdentifier: Assembly-CSharp::ItemSO
-  itemName: Bait
-  statToChange: 1
+  itemName: Fish Food
+  statToChange: 3
   amountToChangeStat: 1
+  itemID: 1
+  isSellable: 1

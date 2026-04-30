@@ -6,6 +6,7 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
 {
     //===ITEM DATA===
     public string itemName;
+    public int itemID;
     public int quantity;
     public Sprite itemSprite;
     public int price;
@@ -39,7 +40,7 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
     }
     
     public int AddItem(string itemName, int quantity, Sprite itemsprite, 
-        int price, string itemDescription)
+        int price, string itemDescription, int itemID)
     {
         // check to see if slot is full already
         if (isFull)
@@ -49,6 +50,7 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
         
         // update name
         this.itemName = itemName;
+        this.itemID = itemID;
         
         // update image
         this.itemSprite = itemsprite;
@@ -69,8 +71,8 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
             quantityText.enabled = true;
             this.isFull = true;
             
-             // return leftovers
-             int extraItems = this.quantity - maxNumberOfItems;
+            // return leftovers
+            int extraItems = this.quantity - maxNumberOfItems;
             this.quantity = maxNumberOfItems; 
             return extraItems;
         }
@@ -88,24 +90,24 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
         {
             OnLeftClick();
         }
-        
-        if (eventData.button == PointerEventData.InputButton.Right)
-        {
-            OnRightClick();
-        }                                                            
     }
 
     public void OnLeftClick()
     {
         if (isItemSelected)
         {
-            inventoryManager.UseItem(itemName);
+            // make sure you don't subtract past zero
+            if (quantity <= 0) return;
+            
+            //Debug.Log("OnLeftClick - itemName: " + itemName + ", itemID: " + itemID);
+            inventoryManager.UseItem(itemName, itemID);
             this.quantity -= 1;
             quantityText.text = this.quantity.ToString();
             
             if (this.quantity <= 0)
             {
                 EmptySlot();
+                inventoryManager.DeselectAllSlots();
             }
         }
 
@@ -126,14 +128,17 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
         }
         
     }
-
-    public void OnRightClick()
-    {
-        
-    }
     
-    private void EmptySlot()
+    public void EmptySlot()
     { 
+        itemName = "";
+        itemDescription = "";
+        itemSprite = null;
+        itemID = 0;
+        price = 0;
+        isFull = false;
+        isItemSelected = false;
+        
         quantityText.enabled = false;
         itemImage.enabled = false;
         itemImage.sprite = emptySprite;
@@ -141,5 +146,15 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
         itemDescriptionNameText.text = "";
         itemDescriptionText.text = "";
         itemDescriptionImage.sprite = emptySprite;
+        
+        selectedShader.SetActive(false);
+    
+        inventoryManager.DeselectAllSlots();
+    }
+    
+    public void UpdateQuantityText(int quantity)
+    {
+        quantityText.text = quantity.ToString();
+        quantityText.enabled = quantity > 0;
     }
 }

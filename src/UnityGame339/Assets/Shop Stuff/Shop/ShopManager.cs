@@ -6,17 +6,16 @@ using UnityEngine.EventSystems;
 public class ShopManager : MonoBehaviour
 {
     public int[,] shopItems = new int[4, 4]; // aray of shop items - [columns, rows]
-    public float coins; // currency 
-    public Text CoinsText;
     public FadeAwayText FadeAwayText;
+    public Item[] shopItemButtons;
     
     private InventoryManager inventoryManager;
+    private MoneyManager moneyManager;
     
     void Start()
     {
         inventoryManager = FindObjectOfType<InventoryManager>();
-        
-        CoinsText.text = "$" + coins.ToString();
+        moneyManager = FindObjectOfType<MoneyManager>();
         
         // IDs
         shopItems[1, 1] = 1;
@@ -37,49 +36,74 @@ public class ShopManager : MonoBehaviour
     
     public void Buy()
     {
-        GameObject buttonObject = UnityEngine.EventSystems.EventSystem.current.currentSelectedGameObject;
-
-        if (buttonObject == null)
-        {
-            Debug.Log("No Button Selected.");
-            return;
-        }
-        
-        var info = buttonObject.GetComponent<Item>();
-
-        if (info == null)
-        {
-            Debug.Log("No Item Component Found On Button.");
-            return;
-        }
+        Item info = GetButton();
+        if (info == null) return;
 
         int itemID = info.ItemID;
+        int itemPrice = shopItems[2, itemID];
         
         // Check if we have enough coins to purchase the item:
-        if (coins >= shopItems[2, itemID])
+        if (moneyManager.CanBuy(itemPrice))
         {
             // subtract price from our coins
-            coins -= shopItems[2, itemID];
+            moneyManager.Buy(itemPrice);
             
             // increase item quantity
-            shopItems[3, itemID]++; 
-            
-            // update coins after purchase
-            CoinsText.text = "$" + coins.ToString(); 
+            shopItems[3, itemID] += 1; 
             
             // update item quantity
             info.QuantityText.text = shopItems[3, itemID].ToString();
             
-            info.SendToInventory(shopItems[3, itemID]);
+            info.SendToInventory(1);
         }
         else
         {
             CantBuy();
         }
     }
+    
+    public void DecreaseItemQuantity(int itemID)
+    {
+        //Debug.Log("DecreaseItemQuantity called with itemID: " + itemID);
+        //Debug.Log("Current shopItems[3, " + itemID + "] = " + shopItems[3, itemID]);
+        
+        if (shopItems[3, itemID] > 0)
+        {
+            shopItems[3, itemID] -= 1;
+        }
+        else
+        {
+            //Debug.Log("Quantity was already 0, not decreasing.");
+        }
+    }
 
     public void CantBuy()
     {
         FadeAwayText.MakeTextVisible();
+    }
+    
+    // ---SELL---
+    public void Sell()
+    {
+        
+    }
+
+    public Item GetButton()
+    {
+        GameObject buttonObject = EventSystem.current.currentSelectedGameObject;
+
+        if (buttonObject == null)
+        {
+            return null; 
+        }
+    
+        Item info = buttonObject.GetComponent<Item>();
+
+        if (info == null)
+        {
+            return null; 
+        }
+
+        return info;
     }
 }
