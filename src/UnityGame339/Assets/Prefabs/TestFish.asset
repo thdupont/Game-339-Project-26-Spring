@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: TestFish
   m_EditorClassIdentifier: Assembly-CSharp::FishData
   fishName: TestFish
-  sprite: {fileID: -2508321389420471057, guid: 0c2b0ea2f47a94135977e0fc1453ca2b, type: 3}
+  sprite: {fileID: 21300000, guid: c89c15bb8e1d38e4ca2c7c51046e495e, type: 3}
   value: 5

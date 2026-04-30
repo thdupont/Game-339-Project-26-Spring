@@ -3519,7 +3519,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62e4194c211d949f290651b55d66f7f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShopSceneChange
-  sceneToLoad: Tutorial Island
+  sceneToLoad: MainIsland
 --- !u!1 &672994255
 GameObject:
   m_ObjectHideFlags: 0
@@ -6316,7 +6316,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 225, y: 256.80127}
+  m_AnchoredPosition: {x: -316, y: 486}
   m_SizeDelta: {x: -767.42, y: -586.225}
   m_Pivot: {x: 0.37767926, y: 0.50000006}
 --- !u!114 &1213639097
@@ -6604,7 +6604,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 213.17496, y: -289.84708}
+  m_AnchoredPosition: {x: 213.17493, y: -289.84708}
   m_SizeDelta: {x: 600, y: 750}
   m_Pivot: {x: -1.3661183, y: 0.64687055}
 --- !u!114 &1289171636
