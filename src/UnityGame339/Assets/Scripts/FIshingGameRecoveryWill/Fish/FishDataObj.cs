@@ -5,11 +5,7 @@ public class FishDataObj : ScriptableObject
 {
     public string FishName;
     public string FishDescription;
-    public float Health;
-    public float AttackDamage = 1f;
-    public float MaxHealth;
-    public float Defence;
-
+    public float fishValue = 1f;
     public float Speed;
     public float FishSize;
     public Sprite FishSprite;
