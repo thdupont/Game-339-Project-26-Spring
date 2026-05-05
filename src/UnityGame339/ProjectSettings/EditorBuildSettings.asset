@@ -8,6 +8,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/StringReverseScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Fishing Game.unity
+    guid: b5a017179776b584e8aab309c7c357f8
+  - enabled: 1
+    path: Assets/Scenes/FishFarm.unity
+    guid: aaecba711ccdbed40a6bdb61af054907
+  - enabled: 1
+    path: Assets/Shop Stuff/Shop.unity
+    guid: e8eee2d615ed44d768163c295e12084b
+  - enabled: 1
+    path: Assets/Scenes/MainIsland.unity
+    guid: 316426b065489324eab92ff8ae836251
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
