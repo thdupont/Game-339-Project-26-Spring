@@ -6762,7 +6762,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 245cca81c38b5584b8dd26e667b84550, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneTransition
-  sceneToLoad: 
+  sceneToLoad: Fishing Game
 --- !u!1 &1096906034
 GameObject:
   m_ObjectHideFlags: 0
